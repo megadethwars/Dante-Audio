@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CONFIGURACION>
+<SERVIDOR>
+<MULTICAST>224.0.0.3</MULTICAST>
+<SERV>192.168.1.91</SERV>
+<ESC>4049</ESC>
+<PortUDP>10001</PortUDP>
+</SERVIDOR>
+<ASIO>
+<CANAL id="uno">1</CANAL>
+<CANAL id="alguien">2</CANAL>
+<CANAL id="alguien">3</CANAL>
+<CANAL id="alguien">3</CANAL>
+<CANAL id="alguien">3</CANAL>
+<CANAL id="10001">3</CANAL>
+<CANAL id="alguien">3</CANAL>
+<CANAL id="10001">3</CANAL>
+<CANAL id="9">9</CANAL>
+<CANAL id="10">10</CANAL>
+<CANAL id="jTextField1">jTextField1</CANAL>
+<CANAL id="jTextField1">jTextField1</CANAL>
+<CANAL id="jTextField1">jTextField1</CANAL>
+<CANAL id="jTextField1">jTextField1</CANAL>
+<CANAL id="jTextField1">jTextField1</CANAL>
+<CANAL id="jTextField1">jTextField1</CANAL>
+<CANAL id="10001">jTextField1</CANAL>
+<CANAL id="10001">jTextField1</CANAL>
+<CANAL id="10001">jTextField1</CANAL>
+<CANAL id="10001">jTextField1</CANAL>
+<CANAL id="10001">jTextField1</CANAL>
+<CANAL id="10001">jTextField1</CANAL>
+<CANAL id="10001">jTextField1</CANAL>
+<CANAL id="10001">jTextField1</CANAL>
+<CANAL id="10001">jTextField1</CANAL>
+<CANAL id="10001">jTextField1</CANAL>
+<CANAL id="10001">jTextField1</CANAL>
+<CANAL id="10001">jTextField1</CANAL>
+<CANAL id="10001">jTextField1</CANAL>
+<CANAL id="10001">jTextField1</CANAL>
+<CANAL id="10001">jTextField1</CANAL>
+<CANAL id="10001">jTextField1</CANAL>
+<FRECUENCIA>48000</FRECUENCIA>
+<MUESTRA>64</MUESTRA>
+<NETWORK>default</NETWORK>
+</ASIO>
+<IMAGES>
+<IMAGE/>
+<IMAGE/>
+<IMAGE/>
+<IMAGE/>
+<IMAGE/>
+<IMAGE/>
+<IMAGE/>
+<IMAGE/>
+<IMAGE/>
+<IMAGE/>
+<IMAGE/>
+<IMAGE/>
+<IMAGE/>
+<IMAGE/>
+<IMAGE/>
+<IMAGE/>
+<IMAGE/>
+<IMAGE/>
+<IMAGE/>
+<IMAGE/>
+<IMAGE/>
+<IMAGE/>
+<IMAGE/>
+<IMAGE/>
+<IMAGE/>
+<IMAGE/>
+<IMAGE/>
+<IMAGE/>
+<IMAGE/>
+<IMAGE/>
+<IMAGE/>
+<IMAGE/>
+</IMAGES>
+</CONFIGURACION>

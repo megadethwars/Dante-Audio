@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CONFIGURACION>
+<SERVIDOR>
+<MULTICAST>224.0.0.3</MULTICAST>
+<SERV>192.168.1.91</SERV>
+<ESC>4050</ESC>
+<PortUDP>10005</PortUDP>
+</SERVIDOR>
+<ASIO>
+<CANAL id="canal 1">10005</CANAL>
+<CANAL id="canal 9">10005</CANAL>
+<CANAL id="canal 5">10005</CANAL>
+<CANAL id="canal 13">10005</CANAL>
+<CANAL id="canal 16">10005</CANAL>
+<CANAL id="canal 213">10005</CANAL>
+<CANAL id="canal 25">10005</CANAL>
+<CANAL id="canal 26">10005</CANAL>
+<CANAL id="canal 2">10005</CANAL>
+<CANAL id="canal 10">10005</CANAL>
+<CANAL id="canal 6">10005</CANAL>
+<CANAL id="canal 14">10005</CANAL>
+<CANAL id="canal 18">10005</CANAL>
+<CANAL id="canal 22">10005</CANAL>
+<CANAL id="canal 27">10005</CANAL>
+<CANAL id="canal 28">10005</CANAL>
+<CANAL id="canal 3">10005</CANAL>
+<CANAL id="canal 11">10005</CANAL>
+<CANAL id="canal 7">10005</CANAL>
+<CANAL id="canal 15">10005</CANAL>
+<CANAL id="canal 19">10005</CANAL>
+<CANAL id="canal 23">10005</CANAL>
+<CANAL id="canal 29">10005</CANAL>
+<CANAL id="canal 30">10005</CANAL>
+<CANAL id="canal 4">10005</CANAL>
+<CANAL id="canal 12">10005</CANAL>
+<CANAL id="canal 8">10005</CANAL>
+<CANAL id="canal 17">10005</CANAL>
+<CANAL id="canal 212">10005</CANAL>
+<CANAL id="canal 24">10005</CANAL>
+<CANAL id="canal 31">10005</CANAL>
+<CANAL id="canal 32 ">10005</CANAL>
+<FRECUENCIA>44100</FRECUENCIA>
+<MUESTRA>64</MUESTRA>
+<NETWORK>default</NETWORK>
+</ASIO>
+<IMAGES>
+<IMAGE>Fondo1366.png</IMAGE>
+<IMAGE>Fondo1366.png</IMAGE>
+<IMAGE>Fondo1366.png</IMAGE>
+<IMAGE>Fondo1366.png</IMAGE>
+<IMAGE>Fondo1366.png</IMAGE>
+<IMAGE>Fondo1366.png</IMAGE>
+<IMAGE>Fondo1366.png</IMAGE>
+<IMAGE>dybala.jpg</IMAGE>
+<IMAGE>dybala.jpg</IMAGE>
+<IMAGE>dybala.jpg</IMAGE>
+<IMAGE>dybala.jpg</IMAGE>
+<IMAGE>dybala.jpg</IMAGE>
+<IMAGE>dybala.jpg</IMAGE>
+<IMAGE>dybala.jpg</IMAGE>
+<IMAGE>messi.jpeg</IMAGE>
+<IMAGE>green.png</IMAGE>
+<IMAGE>messi.jpeg</IMAGE>
+<IMAGE>messi.jpeg</IMAGE>
+<IMAGE>messi.jpeg</IMAGE>
+<IMAGE>messi.jpeg</IMAGE>
+<IMAGE>messi.jpeg</IMAGE>
+<IMAGE>messi.jpeg</IMAGE>
+<IMAGE>Fondo1366.png</IMAGE>
+<IMAGE>dybala.jpg</IMAGE>
+<IMAGE>green.png</IMAGE>
+<IMAGE>green.png</IMAGE>
+<IMAGE>green.png</IMAGE>
+<IMAGE>green.png</IMAGE>
+<IMAGE>green.png</IMAGE>
+<IMAGE>green.png</IMAGE>
+<IMAGE>messi.jpeg</IMAGE>
+<IMAGE>green.png</IMAGE>
+</IMAGES>
+</CONFIGURACION>
