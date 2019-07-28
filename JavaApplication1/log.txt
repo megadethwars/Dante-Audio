@@ -59464,3 +59464,17 @@
 17/7/2019;0:34:4 - No se encontro el servidor
 17/7/2019;0:34:7 - Lectura de xml escrita correctamente
 17/7/2019;0:34:8 - No se encontro el servidor
+28/7/2019;17:34:19 - Iniciando aplicacion clente
+28/7/2019;17:34:20 - Lectura de xml escrita correctamente
+28/7/2019;17:34:20 - Lectura de xml escrita correctamente
+28/7/2019;17:34:20 - Lectura de xml escrita correctamente
+28/7/2019;17:34:20 - Lectura de xml escrita correctamente
+28/7/2019;17:34:26 - Lectura de xml escrita correctamente
+28/7/2019;17:53:18 - Iniciando aplicacion clente
+28/7/2019;17:53:19 - Lectura de xml escrita correctamente
+28/7/2019;17:53:19 - Lectura de xml escrita correctamente
+28/7/2019;17:53:20 - Lectura de xml escrita correctamente
+28/7/2019;17:53:20 - Lectura de xml escrita correctamente
+28/7/2019;17:53:26 - Lectura de xml escrita correctamente
+28/7/2019;17:53:27 - No se encontro el servidor
+28/7/2019;17:53:30 - Lectura de xml escrita correctamente
