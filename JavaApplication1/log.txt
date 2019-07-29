@@ -59478,3 +59478,49 @@
 28/7/2019;17:53:26 - Lectura de xml escrita correctamente
 28/7/2019;17:53:27 - No se encontro el servidor
 28/7/2019;17:53:30 - Lectura de xml escrita correctamente
+28/7/2019;19:20:11 - Iniciando aplicacion clente
+28/7/2019;19:20:12 - Lectura de xml escrita correctamente
+28/7/2019;19:20:12 - Lectura de xml escrita correctamente
+28/7/2019;19:20:12 - Lectura de xml escrita correctamente
+28/7/2019;19:20:13 - Lectura de xml escrita correctamente
+28/7/2019;19:20:19 - Lectura de xml escrita correctamente
+28/7/2019;19:20:20 - No se encontro el servidor
+28/7/2019;19:20:23 - Lectura de xml escrita correctamente
+28/7/2019;19:20:24 - No se encontro el servidor
+28/7/2019;19:20:26 - Lectura de xml escrita correctamente
+28/7/2019;19:20:27 - Lectura de xml escrita correctamente
+28/7/2019;19:20:28 - No se encontro el servidor
+28/7/2019;19:20:31 - Lectura de xml escrita correctamente
+28/7/2019;19:20:44 - Iniciando aplicacion clente
+28/7/2019;19:20:45 - Lectura de xml escrita correctamente
+28/7/2019;19:20:45 - Lectura de xml escrita correctamente
+28/7/2019;19:20:47 - Lectura de xml escrita correctamente
+28/7/2019;19:20:47 - Lectura de xml escrita correctamente
+28/7/2019;19:20:53 - Lectura de xml escrita correctamente
+28/7/2019;19:20:54 - No se encontro el servidor
+28/7/2019;19:31:27 - Iniciando aplicacion clente
+28/7/2019;19:31:27 - Lectura de xml escrita correctamente
+28/7/2019;19:31:28 - Lectura de xml escrita correctamente
+28/7/2019;19:31:28 - Lectura de xml escrita correctamente
+28/7/2019;19:31:29 - Lectura de xml escrita correctamente
+28/7/2019;19:31:35 - Lectura de xml escrita correctamente
+28/7/2019;19:31:36 - No se encontro el servidor
+28/7/2019;19:40:31 - Iniciando aplicacion clente
+28/7/2019;19:40:31 - Lectura de xml escrita correctamente
+28/7/2019;19:40:32 - Lectura de xml escrita correctamente
+28/7/2019;19:40:32 - Lectura de xml escrita correctamente
+28/7/2019;19:40:32 - Lectura de xml escrita correctamente
+28/7/2019;19:40:39 - Lectura de xml escrita correctamente
+28/7/2019;19:40:40 - No se encontro el servidor
+28/7/2019;19:40:43 - Lectura de xml escrita correctamente
+28/7/2019;19:40:44 - No se encontro el servidor
+28/7/2019;19:41:23 - Iniciando aplicacion clente
+28/7/2019;19:41:24 - Lectura de xml escrita correctamente
+28/7/2019;19:41:24 - Lectura de xml escrita correctamente
+28/7/2019;19:41:25 - Lectura de xml escrita correctamente
+28/7/2019;19:41:25 - Lectura de xml escrita correctamente
+28/7/2019;19:41:31 - Lectura de xml escrita correctamente
+28/7/2019;19:41:32 - No se encontro el servidor
+28/7/2019;19:41:35 - Lectura de xml escrita correctamente
+28/7/2019;19:41:36 - No se encontro el servidor
+28/7/2019;19:41:38 - Lectura de xml escrita correctamente
