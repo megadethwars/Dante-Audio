@@ -64,6 +64,7 @@ public class ThreadAudio extends Thread{
     FloatControl volCtrl;
     private ThreadSocket hilosocket;
     short y;
+    private boolean isrunning = false;
     
     
     public ThreadAudio(String Network,String puerto,String multicast,Panel P,int Frecuencia,int muestra,int numerocanal,JSlider V,JButton B,ThreadSocket hilosocket){
@@ -175,6 +176,7 @@ public class ThreadAudio extends Thread{
             int tiempo = 0;
             Boolean baja1 = false,baja2= false,sube1=false;
             long RMS=0;
+            isrunning = true;
             while(!continuar){
                 socket.receive(PaqueteCliente);
                 //Sock.receive(PaqueteCliente);
@@ -307,10 +309,12 @@ public class ThreadAudio extends Thread{
             System.out.println("FINALIZADO");
             
         } catch (SocketException ex) {
+            isrunning=false;
             Logger.getLogger(ThreadAudio.class.getName()).log(Level.SEVERE, null, ex);
             P.SetLog("error de socket ");
             B.setBackground(Color.red);
         } catch (IOException ex) {
+            isrunning = false;
             Logger.getLogger(ThreadAudio.class.getName()).log(Level.SEVERE, null, ex);
             P.SetLog("error de socket ");
             B.setBackground(Color.red);
@@ -318,6 +322,7 @@ public class ThreadAudio extends Thread{
     }
     
      public void detener(){
+         isrunning = false;
       System.out.println("hilo detenido ");
         P.SetLog("Audio detenido  ");
         P.SetMSG("FIN DE AUDIO", true);
@@ -333,6 +338,10 @@ public class ThreadAudio extends Thread{
         System.out.println("canalS"+canal);
         cuenta=canal*Muestra*2;
         return cuenta;
+    }
+    
+    public boolean IsRunning(){
+      return isrunning;
     }
     
     private static float limit(FloatControl control,float level)

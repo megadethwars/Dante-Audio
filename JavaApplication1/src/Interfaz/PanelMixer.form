@@ -102,8 +102,9 @@
                                       <Component id="C4" min="-2" pref="137" max="-2" attributes="0"/>
                                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                       <Component id="C12" min="-2" pref="137" max="-2" attributes="0"/>
-                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
                                       <Component id="C20" min="-2" pref="137" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
@@ -312,19 +313,19 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
                       <Component id="S1" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="135" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="139" max="-2" attributes="0"/>
                       <Component id="S9" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="140" max="-2" attributes="0"/>
-                      <Component id="S3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="136" max="-2" attributes="0"/>
+                      <Component id="S17" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="113" max="-2" attributes="0"/>
                       <Component id="S25" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="137" max="-2" attributes="0"/>
-                      <Component id="S19" min="-2" max="-2" attributes="0"/>
+                      <Component id="S3" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="113" max="-2" attributes="0"/>
                       <Component id="S11" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="120" max="-2" attributes="0"/>
+                      <Component id="S19" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
-                      <Component id="S17" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="118" max="-2" attributes="0"/>
                       <Component id="S27" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="92" max="-2" attributes="0"/>
                   </Group>
@@ -443,14 +444,14 @@
                           <Group type="102" attributes="0">
                               <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="S17" alignment="1" min="-2" max="-2" attributes="0"/>
                                   <Component id="S3" alignment="1" min="-2" max="-2" attributes="0"/>
-                                  <Component id="S19" alignment="1" min="-2" max="-2" attributes="0"/>
                                   <Component id="S27" alignment="1" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <Component id="S1" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="S17" alignment="1" min="-2" max="-2" attributes="0"/>
                           <Component id="S11" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="S19" alignment="1" min="-2" max="-2" attributes="0"/>
                           <Component id="S9" alignment="1" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -481,7 +482,7 @@
                   <Component id="C20" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
                   <Component id="C28" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="107" max="32767" attributes="0"/>
+              <EmptySpace type="unrelated" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="V2" min="-2" max="-2" attributes="0"/>
                   <Component id="V10" alignment="0" min="-2" max="-2" attributes="0"/>
@@ -1689,15 +1690,15 @@
     </Component>
     <Component class="javax.swing.JRadioButton" name="S1">
     </Component>
-    <Component class="javax.swing.JRadioButton" name="S17">
+    <Component class="javax.swing.JRadioButton" name="S9">
     </Component>
     <Component class="javax.swing.JRadioButton" name="S25">
     </Component>
-    <Component class="javax.swing.JRadioButton" name="S3">
+    <Component class="javax.swing.JRadioButton" name="S17">
     </Component>
     <Component class="javax.swing.JRadioButton" name="S11">
     </Component>
-    <Component class="javax.swing.JRadioButton" name="S19">
+    <Component class="javax.swing.JRadioButton" name="S3">
     </Component>
     <Component class="javax.swing.JRadioButton" name="S27">
     </Component>
@@ -1749,7 +1750,7 @@
     </Component>
     <Component class="javax.swing.JRadioButton" name="S32">
     </Component>
-    <Component class="javax.swing.JRadioButton" name="S9">
+    <Component class="javax.swing.JRadioButton" name="S19">
     </Component>
   </SubComponents>
 </Form>
