@@ -65,6 +65,7 @@ public class ThreadAudio extends Thread{
     private ThreadSocket hilosocket;
     short y;
     private boolean isrunning = false;
+    private boolean isforcedOff = false;
     
     
     public ThreadAudio(String Network,String puerto,String multicast,Panel P,int Frecuencia,int muestra,int numerocanal,JSlider V,JButton B,ThreadSocket hilosocket){
@@ -342,6 +343,15 @@ public class ThreadAudio extends Thread{
     
     public boolean IsRunning(){
       return isrunning;
+    }
+    
+    public boolean GetForcedDown(){
+     return isforcedOff;   
+    }
+    
+    public void SetForcedDown(boolean isforcedoff){
+        this.isforcedOff = isforcedoff;
+    
     }
     
     private static float limit(FloatControl control,float level)

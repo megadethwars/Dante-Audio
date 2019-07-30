@@ -11,6 +11,7 @@ import Datos.XmlRead;
 import java.awt.Color;
 import java.awt.Image;
 import java.util.ArrayList;
+import javafx.scene.control.RadioButton;
 import javax.swing.JButton;
 import javax.swing.JSlider;
 import javax.swing.ImageIcon;
@@ -95,6 +96,40 @@ public class PanelMixer extends javax.swing.JPanel {
     private ThreadAudio audio30;
     private ThreadAudio audio31;
     private ThreadAudio audio32;
+    
+    
+    private boolean audioforceddown0 = false;
+    private boolean audioforceddown1 = false;
+    private boolean audioforceddown2 = false;
+    private boolean audioforceddown3 = false;
+    private boolean audioforceddown4 = false;
+    private boolean audioforceddown5 = false;
+    private boolean audioforceddown6 = false;
+    private boolean audioforceddown7 = false;
+    private boolean audioforceddown8 = false;
+    private boolean audioforceddown9 = false;
+    private boolean audioforceddown10 = false;
+    private boolean audioforceddown11 = false;
+    private boolean audioforceddown12 = false;
+    private boolean audioforceddown13 = false;
+    private boolean audioforceddown14 = false;
+    private boolean audioforceddown15 = false;
+    private boolean audioforceddown16 = false;
+    private boolean audioforceddown17 = false;
+    private boolean audioforceddown18 = false;
+    private boolean audioforceddown19 = false;
+    private boolean audioforceddown20 = false;
+    private boolean audioforceddown21 = false;
+    private boolean audioforceddown22 = false;
+    private boolean audioforceddown23 = false;
+    private boolean audioforceddown24 = false;
+    private boolean audioforceddown25 = false;
+    private boolean audioforceddown26 = false;
+    private boolean audioforceddown27 = false;
+    private boolean audioforceddown28 = false;
+    private boolean audioforceddown29 = false;
+    private boolean audioforceddown30 = false;
+    private boolean audioforceddown31 = false;
     
     private Configuracion Conf;
     private XmlRead X;
@@ -4410,6 +4445,17 @@ public class PanelMixer extends javax.swing.JPanel {
 
     
     ///////
+    
+    private void desactivateButton(JButton boton,RadioButton radio,int bandera,ThreadAudio tempAudio){
+        
+        if(!radio.isSelected() && tempAudio.IsRunning()){
+            tempAudio.SetForcedDown(true);
+            //turn down audio
+        }
+        
+        
+    }
+    
     private void SOLOActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SOLOActionPerformed
         // TODO add your handling code here:
         alternarSOLO++;
