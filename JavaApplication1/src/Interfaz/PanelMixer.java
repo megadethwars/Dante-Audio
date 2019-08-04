@@ -15,6 +15,7 @@ import javafx.scene.control.RadioButton;
 import javax.swing.JButton;
 import javax.swing.JSlider;
 import javax.swing.ImageIcon;
+import javax.swing.JRadioButton;
 /**
  *
  * @author leone
@@ -97,6 +98,38 @@ public class PanelMixer extends javax.swing.JPanel {
     private ThreadAudio audio31;
     private ThreadAudio audio32;
     
+    private boolean LastAtivate0=false;
+    private boolean LastAtivate1=false;
+    private boolean LastAtivate2=false;
+    private boolean LastAtivate3=false;
+    private boolean LastAtivate4=false;
+    private boolean LastAtivate5=false;
+    private boolean LastAtivate6=false;
+    private boolean LastAtivate7=false;
+    private boolean LastAtivate8=false;
+    private boolean LastAtivate9=false;
+    private boolean LastAtivate10=false;
+    private boolean LastAtivate11=false;
+    private boolean LastAtivate12=false;
+    private boolean LastAtivate13=false;
+    private boolean LastAtivate14=false;
+    private boolean LastAtivate15=false;
+    private boolean LastAtivate16=false;
+    private boolean LastAtivate17=false;
+    private boolean LastAtivate18=false;
+    private boolean LastAtivate19=false;
+    private boolean LastAtivate20=false;
+    private boolean LastAtivate21=false;
+    private boolean LastAtivate22=false;
+    private boolean LastAtivate23=false;
+    private boolean LastAtivate24=false;
+    private boolean LastAtivate25=false;
+    private boolean LastAtivate26=false;
+    private boolean LastAtivate27=false;
+    private boolean LastAtivate28=false;
+    private boolean LastAtivate29=false;
+    private boolean LastAtivate30=false;
+    private boolean LastAtivate31=false;
     
     private boolean audioforceddown0 = false;
     private boolean audioforceddown1 = false;
@@ -130,6 +163,8 @@ public class PanelMixer extends javax.swing.JPanel {
     private boolean audioforceddown29 = false;
     private boolean audioforceddown30 = false;
     private boolean audioforceddown31 = false;
+    
+    
     
     private Configuracion Conf;
     private XmlRead X;
@@ -2507,10 +2542,10 @@ public class PanelMixer extends javax.swing.JPanel {
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                             .addComponent(I17, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addComponent(C17, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(V3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addComponent(I18, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addComponent(I21, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(V21, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                            .addComponent(V21, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(V17, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE))
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                             .addGroup(layout.createSequentialGroup()
@@ -2523,12 +2558,14 @@ public class PanelMixer extends javax.swing.JPanel {
                                                     .addComponent(I29, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE))
                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                    .addComponent(V17, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                    .addComponent(C3, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                    .addComponent(I4, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                    .addComponent(I3, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                    .addComponent(I6, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                                .addGap(0, 0, Short.MAX_VALUE))
+                                                    .addGroup(layout.createSequentialGroup()
+                                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                            .addComponent(C3, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                            .addComponent(I4, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                            .addComponent(I3, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                            .addComponent(I6, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                                        .addGap(0, 0, Short.MAX_VALUE))
+                                                    .addComponent(V3, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                             .addGroup(layout.createSequentialGroup()
                                                 .addComponent(V29, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -2764,12 +2801,10 @@ public class PanelMixer extends javax.swing.JPanel {
                                     .addComponent(V17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(V19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(V25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(V3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(V9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(V11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(I9, javax.swing.GroupLayout.PREFERRED_SIZE, 159, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                                    .addComponent(V11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(V3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(I9, javax.swing.GroupLayout.PREFERRED_SIZE, 159, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(19, 19, 19)
@@ -4446,13 +4481,50 @@ public class PanelMixer extends javax.swing.JPanel {
     
     ///////
     
-    private void desactivateButton(JButton boton,RadioButton radio,int bandera,ThreadAudio tempAudio){
-        
-        if(!radio.isSelected() && tempAudio.IsRunning()){
+    private boolean desactivateButton(JButton boton,JRadioButton radio,int banderaAlternar,ThreadAudio tempAudio,boolean lastActivate){
+       
+        try{
+            if(!radio.isSelected() && tempAudio.IsRunning()){
             tempAudio.SetForcedDown(true);
-            //turn down audio
+            banderaAlternar=0;
+            boton.setBackground(Color.blue);
+            lastActivate = true;
+            radio.setEnabled(false);
+            return true;
+        }
+        }
+        catch(Exception ex){
+            return false;
+            
         }
         
+        
+        return false;
+    }
+    
+    private void activateLastButton(JButton boton,JRadioButton radio,int banderaAlternar,ThreadAudio tempAudio,boolean lastActivate,JSlider V){
+        
+        if(lastActivate==true){
+            lastActivate=false;
+            banderaAlternar=1;
+            
+            try{
+            Conf=X.Read("config.xml"); 
+            tempAudio=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(0),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),0,V,boton,socket);
+            tempAudio.start();
+            boton.setBackground(Color.GREEN);
+            
+            radio.setEnabled(true);
+            radio.setSelected(false);
+         }
+         catch(Exception e){
+            System.out.println("Error de hilo ");
+            boton.setBackground(Color.RED);
+            radio.setEnabled(false);
+            
+         }
+            
+        }
         
     }
     
@@ -4462,7 +4534,41 @@ public class PanelMixer extends javax.swing.JPanel {
         if(alternarSOLO==1){
          ///activar modo SOLO
          
+         LastAtivate0 = desactivateButton(C1,S1,alternar0,audio0,LastAtivate0);
+         LastAtivate1 = desactivateButton(C2,S2,alternar1,audio1,LastAtivate1);
+         LastAtivate2 = desactivateButton(C3,S3,alternar2,audio2,LastAtivate2);
+         LastAtivate3 = desactivateButton(C4,S4,alternar3,audio3,LastAtivate3);
+         LastAtivate4 = desactivateButton(C5,S5,alternar4,audio4,LastAtivate4);
+         LastAtivate5 = desactivateButton(C6,S6,alternar5,audio5,LastAtivate5);
+         LastAtivate6 = desactivateButton(C7,S7,alternar6,audio6,LastAtivate6);
+         LastAtivate7 = desactivateButton(C8,S8,alternar7,audio7,LastAtivate7);
          
+         LastAtivate8 =  desactivateButton(C9,S9,alternar8,audio8,LastAtivate8);
+         LastAtivate9 =  desactivateButton(C10,S10,alternar9,audio9,LastAtivate9);
+         LastAtivate10 = desactivateButton(C11,S11,alternar10,audio10,LastAtivate10);
+         LastAtivate11 = desactivateButton(C12,S12,alternar11,audio11,LastAtivate11);
+         LastAtivate12 = desactivateButton(C13,S13,alternar12,audio12,LastAtivate12);
+         LastAtivate13 = desactivateButton(C14,S14,alternar13,audio13,LastAtivate13);
+         LastAtivate14 = desactivateButton(C15,S15,alternar14,audio14,LastAtivate14);
+         LastAtivate15 = desactivateButton(C16,S16,alternar15,audio15,LastAtivate15);
+         
+         LastAtivate16 = desactivateButton(C17,S17,alternar16,audio16,LastAtivate16);
+         LastAtivate17 = desactivateButton(C18,S18,alternar17,audio17,LastAtivate17);
+         LastAtivate18 = desactivateButton(C19,S19,alternar18,audio18,LastAtivate18);
+         LastAtivate19 = desactivateButton(C20,S20,alternar19,audio19,LastAtivate19);
+         LastAtivate20 = desactivateButton(C21,S21,alternar20,audio20,LastAtivate20);
+         LastAtivate21 = desactivateButton(C22,S22,alternar21,audio21,LastAtivate21);
+         LastAtivate22 = desactivateButton(C23,S23,alternar22,audio22,LastAtivate22);
+         LastAtivate23 = desactivateButton(C24,S24,alternar23,audio23,LastAtivate23);
+         
+         LastAtivate24 = desactivateButton(C25,S25,alternar24,audio24,LastAtivate24);
+         LastAtivate25 = desactivateButton(C26,S26,alternar25,audio25,LastAtivate25);
+         LastAtivate26 = desactivateButton(C27,S27,alternar26,audio26,LastAtivate26);
+         LastAtivate27 = desactivateButton(C28,S28,alternar27,audio27,LastAtivate27);
+         LastAtivate28 = desactivateButton(C29,S29,alternar28,audio28,LastAtivate28);
+         LastAtivate29 = desactivateButton(C30,S30,alternar29,audio29,LastAtivate29);
+         LastAtivate30 = desactivateButton(C31,S31,alternar30,audio30,LastAtivate30);
+         LastAtivate31 = desactivateButton(C32,S32,alternar31,audio31,LastAtivate31);
          
          SOLO.setBackground(Color.green);
         }
@@ -4470,6 +4576,41 @@ public class PanelMixer extends javax.swing.JPanel {
         if(alternarSOLO==2){
             alternarSOLO=0;
             
+            activateLastButton(C1,S1,alternar0,audio0,LastAtivate0,V1);
+            activateLastButton(C2,S2,alternar1,audio1,LastAtivate1,V2);
+            activateLastButton(C3,S3,alternar2,audio2,LastAtivate2,V3);
+            activateLastButton(C4,S4,alternar3,audio3,LastAtivate3,V4);
+            activateLastButton(C5,S5,alternar4,audio4,LastAtivate4,V5);
+            activateLastButton(C6,S6,alternar5,audio5,LastAtivate5,V6);
+            activateLastButton(C7,S7,alternar6,audio6,LastAtivate6,V7);
+            activateLastButton(C8,S8,alternar7,audio7,LastAtivate7,V8);
+            
+            activateLastButton(C9,S9, alternar8, audio8, LastAtivate8, V9);
+            activateLastButton(C10,S10, alternar9, audio9, LastAtivate9, V10);
+            activateLastButton(C11,S11, alternar10, audio10, LastAtivate10, V11);
+            activateLastButton(C12,S12, alternar11, audio11, LastAtivate11, V12);
+            activateLastButton(C13,S13, alternar12, audio12, LastAtivate12, V13);
+            activateLastButton(C14,S14, alternar13, audio13, LastAtivate13, V14);
+            activateLastButton(C15,S15, alternar14, audio14, LastAtivate14, V15);
+            activateLastButton(C16,S16, alternar15, audio15, LastAtivate15, V16);
+            
+            activateLastButton(C17,S17, alternar16, audio16, LastAtivate16, V17);
+            activateLastButton(C18,S18, alternar17, audio17, LastAtivate17, V18);
+            activateLastButton(C19,S19, alternar18, audio18, LastAtivate18, V19);
+            activateLastButton(C20,S20, alternar19, audio19, LastAtivate19, V20);
+            activateLastButton(C21,S21, alternar20, audio20, LastAtivate20, V21);
+            activateLastButton(C22,S22, alternar21, audio21, LastAtivate21, V22);
+            activateLastButton(C23,S23, alternar22, audio22, LastAtivate22, V23);
+            activateLastButton(C24,S24, alternar23, audio23, LastAtivate23, V24);
+            
+            activateLastButton(C25,S25, alternar24, audio24, LastAtivate24, V25);
+            activateLastButton(C26,S26, alternar25, audio25, LastAtivate25, V26);
+            activateLastButton(C27,S24, alternar26, audio26, LastAtivate26, V27);
+            activateLastButton(C27,S28, alternar27, audio27, LastAtivate27, V28);
+            activateLastButton(C29,S29, alternar28, audio28, LastAtivate28, V29);
+            activateLastButton(C30,S30, alternar29, audio29, LastAtivate29, V30);
+            activateLastButton(C31,S31, alternar30, audio30, LastAtivate30, V31);
+            activateLastButton(C32,S32, alternar31, audio31, LastAtivate31, V32);
             
             
             SOLO.setBackground(Color.GRAY);
