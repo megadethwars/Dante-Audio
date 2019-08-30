@@ -9,6 +9,7 @@ import Negocio.ThreadSocket;
 import Datos.Configuracion;
 import Datos.XmlRead;
 import java.awt.Color;
+import java.awt.Component;
 import java.awt.Image;
 import java.util.ArrayList;
 import javafx.scene.control.RadioButton;
@@ -163,6 +164,7 @@ public class PanelMixer extends javax.swing.JPanel {
     private boolean audioforceddown29 = false;
     private boolean audioforceddown30 = false;
     private boolean audioforceddown31 = false;
+    
     
     
     
@@ -2460,6 +2462,358 @@ public class PanelMixer extends javax.swing.JPanel {
             }
         });
 
+        S1.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                S1StateChanged(evt);
+            }
+        });
+        S1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                S1ActionPerformed(evt);
+            }
+        });
+
+        S9.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                S9StateChanged(evt);
+            }
+        });
+        S9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                S9ActionPerformed(evt);
+            }
+        });
+
+        S25.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                S25StateChanged(evt);
+            }
+        });
+        S25.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                S25ActionPerformed(evt);
+            }
+        });
+
+        S17.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                S17StateChanged(evt);
+            }
+        });
+        S17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                S17ActionPerformed(evt);
+            }
+        });
+
+        S11.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                S11StateChanged(evt);
+            }
+        });
+        S11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                S11ActionPerformed(evt);
+            }
+        });
+
+        S3.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                S3StateChanged(evt);
+            }
+        });
+        S3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                S3ActionPerformed(evt);
+            }
+        });
+
+        S27.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                S27StateChanged(evt);
+            }
+        });
+        S27.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                S27ActionPerformed(evt);
+            }
+        });
+
+        S10.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                S10StateChanged(evt);
+            }
+        });
+        S10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                S10ActionPerformed(evt);
+            }
+        });
+
+        S18.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                S18StateChanged(evt);
+            }
+        });
+        S18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                S18ActionPerformed(evt);
+            }
+        });
+
+        S26.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                S26StateChanged(evt);
+            }
+        });
+        S26.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                S26ActionPerformed(evt);
+            }
+        });
+
+        S4.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                S4StateChanged(evt);
+            }
+        });
+        S4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                S4ActionPerformed(evt);
+            }
+        });
+
+        S12.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                S12StateChanged(evt);
+            }
+        });
+        S12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                S12ActionPerformed(evt);
+            }
+        });
+
+        S20.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                S20StateChanged(evt);
+            }
+        });
+        S20.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                S20ActionPerformed(evt);
+            }
+        });
+
+        S28.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                S28StateChanged(evt);
+            }
+        });
+        S28.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                S28ActionPerformed(evt);
+            }
+        });
+
+        S2.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                S2StateChanged(evt);
+            }
+        });
+        S2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                S2ActionPerformed(evt);
+            }
+        });
+
+        S5.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                S5StateChanged(evt);
+            }
+        });
+        S5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                S5ActionPerformed(evt);
+            }
+        });
+
+        S13.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                S13StateChanged(evt);
+            }
+        });
+        S13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                S13ActionPerformed(evt);
+            }
+        });
+
+        S21.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                S21StateChanged(evt);
+            }
+        });
+        S21.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                S21ActionPerformed(evt);
+            }
+        });
+
+        S6.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                S6StateChanged(evt);
+            }
+        });
+        S6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                S6ActionPerformed(evt);
+            }
+        });
+
+        S29.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                S29StateChanged(evt);
+            }
+        });
+        S29.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                S29ActionPerformed(evt);
+            }
+        });
+
+        S14.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                S14StateChanged(evt);
+            }
+        });
+        S14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                S14ActionPerformed(evt);
+            }
+        });
+
+        S22.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                S22StateChanged(evt);
+            }
+        });
+        S22.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                S22ActionPerformed(evt);
+            }
+        });
+
+        S30.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                S30StateChanged(evt);
+            }
+        });
+        S30.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                S30ActionPerformed(evt);
+            }
+        });
+
+        S7.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                S7StateChanged(evt);
+            }
+        });
+        S7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                S7ActionPerformed(evt);
+            }
+        });
+
+        S8.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                S8StateChanged(evt);
+            }
+        });
+        S8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                S8ActionPerformed(evt);
+            }
+        });
+
+        S15.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                S15StateChanged(evt);
+            }
+        });
+        S15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                S15ActionPerformed(evt);
+            }
+        });
+
+        S16.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                S16StateChanged(evt);
+            }
+        });
+        S16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                S16ActionPerformed(evt);
+            }
+        });
+
+        S23.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                S23StateChanged(evt);
+            }
+        });
+        S23.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                S23ActionPerformed(evt);
+            }
+        });
+
+        S24.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                S24StateChanged(evt);
+            }
+        });
+        S24.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                S24ActionPerformed(evt);
+            }
+        });
+
+        S31.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                S31StateChanged(evt);
+            }
+        });
+        S31.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                S31ActionPerformed(evt);
+            }
+        });
+
+        S32.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                S32StateChanged(evt);
+            }
+        });
+        S32.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                S32ActionPerformed(evt);
+            }
+        });
+
+        S19.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                S19StateChanged(evt);
+            }
+        });
+        S19.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                S19ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
@@ -2514,11 +2868,11 @@ public class PanelMixer extends javax.swing.JPanel {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                    .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
                                         .addGap(433, 433, 433)
                                         .addComponent(V12, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                         .addComponent(V20, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(layout.createSequentialGroup()
                                         .addComponent(C18, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -2528,9 +2882,9 @@ public class PanelMixer extends javax.swing.JPanel {
                                         .addComponent(C4, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                         .addComponent(C12, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                         .addComponent(C20, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(20, 20, 20)))
+                                        .addGap(19, 19, 19)))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(C28, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -2558,14 +2912,12 @@ public class PanelMixer extends javax.swing.JPanel {
                                                     .addComponent(I29, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE))
                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                    .addGroup(layout.createSequentialGroup()
-                                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                            .addComponent(C3, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                            .addComponent(I4, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                            .addComponent(I3, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                            .addComponent(I6, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                                        .addGap(0, 0, Short.MAX_VALUE))
-                                                    .addComponent(V3, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                                    .addComponent(C3, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                    .addComponent(I4, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                    .addComponent(I3, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                    .addComponent(I6, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                    .addComponent(V3, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                                .addGap(0, 0, Short.MAX_VALUE))
                                             .addGroup(layout.createSequentialGroup()
                                                 .addComponent(V29, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -4486,6 +4838,7 @@ public class PanelMixer extends javax.swing.JPanel {
         try{
             if(!radio.isSelected() && tempAudio.IsRunning()){
             tempAudio.SetForcedDown(true);
+            //tempAudio.detener();
             banderaAlternar=0;
             boton.setBackground(Color.blue);
             lastActivate = true;
@@ -4528,8 +4881,12 @@ public class PanelMixer extends javax.swing.JPanel {
         
     }
     
+    
+    
     private void SOLOActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SOLOActionPerformed
         // TODO add your handling code here:
+        /*
+        
         alternarSOLO++;
         if(alternarSOLO==1){
          ///activar modo SOLO
@@ -4615,8 +4972,499 @@ public class PanelMixer extends javax.swing.JPanel {
             
             SOLO.setBackground(Color.GRAY);
         }
+        
+        */
     }//GEN-LAST:event_SOLOActionPerformed
 
+    private void DisableVolumeExcept(JSlider j){
+        
+        Component[] components = this.getComponents();
+        
+        for (Component component : components)
+          {
+            if (component instanceof JSlider)
+            {
+                
+                
+                if (!component.equals(j)){
+                    ((JSlider) component).setValue(0);
+                }
+            }
+          }
+    }
+    
+     private void EnableVolume(){
+        
+        Component[] components = this.getComponents();
+        
+        for (Component component : components)
+          {
+            if (component instanceof JSlider)
+            {
+                ((JSlider) component).setValue(10);
+            }
+          }
+    }
+    
+    private void S1StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_S1StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_S1StateChanged
+
+    private void S1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S1ActionPerformed
+        
+        ////activate only this cnannel, the ohters will be disabled by decreasing the volume
+        if(S1.isSelected()){
+         
+            DisableVolumeExcept(V1);
+        }
+        else{
+          EnableVolume();
+            
+        }
+             
+    }//GEN-LAST:event_S1ActionPerformed
+
+    private void S9StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_S9StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_S9StateChanged
+
+    private void S17StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_S17StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_S17StateChanged
+
+    private void S25StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_S25StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_S25StateChanged
+
+    private void S3StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_S3StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_S3StateChanged
+
+    private void S11StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_S11StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_S11StateChanged
+
+    private void S19StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_S19StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_S19StateChanged
+
+    private void S27StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_S27StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_S27StateChanged
+
+    private void S2StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_S2StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_S2StateChanged
+
+    private void S10StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_S10StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_S10StateChanged
+
+    private void S18StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_S18StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_S18StateChanged
+
+    private void S26StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_S26StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_S26StateChanged
+
+    private void S4StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_S4StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_S4StateChanged
+
+    private void S12StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_S12StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_S12StateChanged
+
+    private void S20StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_S20StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_S20StateChanged
+
+    private void S28StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_S28StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_S28StateChanged
+
+    private void S5StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_S5StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_S5StateChanged
+
+    private void S13StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_S13StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_S13StateChanged
+
+    private void S21StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_S21StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_S21StateChanged
+
+    private void S6StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_S6StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_S6StateChanged
+
+    private void S29StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_S29StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_S29StateChanged
+
+    private void S14StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_S14StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_S14StateChanged
+
+    private void S22StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_S22StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_S22StateChanged
+
+    private void S30StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_S30StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_S30StateChanged
+
+    private void S7StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_S7StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_S7StateChanged
+
+    private void S8StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_S8StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_S8StateChanged
+
+    private void S15StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_S15StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_S15StateChanged
+
+    private void S16StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_S16StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_S16StateChanged
+
+    private void S23StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_S23StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_S23StateChanged
+
+    private void S24StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_S24StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_S24StateChanged
+
+    private void S31StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_S31StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_S31StateChanged
+
+    private void S32StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_S32StateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_S32StateChanged
+
+    private void S9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S9ActionPerformed
+        // TODO add your handling code here:
+        if(S9.isSelected()){
+            DisableVolumeExcept(V9);
+        }
+        else{
+            EnableVolume();
+        }
+    }//GEN-LAST:event_S9ActionPerformed
+
+    private void S17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S17ActionPerformed
+        // TODO add your handling code here:
+        if(S17.isSelected()){
+            DisableVolumeExcept(V17);
+        }
+        else{
+            EnableVolume();
+        }
+    }//GEN-LAST:event_S17ActionPerformed
+
+    private void S25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S25ActionPerformed
+        // TODO add your handling code here:
+        if(S25.isSelected()){
+            DisableVolumeExcept(V25);
+        }
+        else{
+            EnableVolume();
+        }
+    }//GEN-LAST:event_S25ActionPerformed
+
+    private void S3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S3ActionPerformed
+        // TODO add your handling code here:
+        if(S3.isSelected()){
+            DisableVolumeExcept(V3);
+        }
+        else{
+            EnableVolume();
+        }
+    }//GEN-LAST:event_S3ActionPerformed
+
+    private void S11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S11ActionPerformed
+        // TODO add your handling code here:
+        if(S11.isSelected()){
+            DisableVolumeExcept(V11);
+        }
+        else{
+            EnableVolume();
+        }
+    }//GEN-LAST:event_S11ActionPerformed
+
+    private void S19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S19ActionPerformed
+        // TODO add your handling code here:
+        if(S19.isSelected()){
+            DisableVolumeExcept(V19);
+        }
+        else{
+            EnableVolume();
+        }
+    }//GEN-LAST:event_S19ActionPerformed
+
+    private void S2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S2ActionPerformed
+        // TODO add your handling code here:
+        if(S2.isSelected()){
+            DisableVolumeExcept(V2);
+        }
+        else{
+            EnableVolume();
+        }
+    }//GEN-LAST:event_S2ActionPerformed
+
+    private void S27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S27ActionPerformed
+        // TODO add your handling code here:
+        if(S27.isSelected()){
+            DisableVolumeExcept(V27);
+        }
+        else{
+            EnableVolume();
+        }
+    }//GEN-LAST:event_S27ActionPerformed
+
+    private void S10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S10ActionPerformed
+        // TODO add your handling code here:
+        if(S10.isSelected()){
+            DisableVolumeExcept(V10);
+        }
+        else{
+            EnableVolume();
+        }
+    }//GEN-LAST:event_S10ActionPerformed
+
+    private void S18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S18ActionPerformed
+        // TODO add your handling code here:
+        if(S18.isSelected()){
+            DisableVolumeExcept(V18);
+        }
+        else{
+            EnableVolume();
+        }
+    }//GEN-LAST:event_S18ActionPerformed
+
+    private void S26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S26ActionPerformed
+        // TODO add your handling code here:
+        if(S26.isSelected()){
+            DisableVolumeExcept(V26);
+        }
+        else{
+            EnableVolume();
+        }
+    }//GEN-LAST:event_S26ActionPerformed
+
+    private void S4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S4ActionPerformed
+        // TODO add your handling code here:
+        if(S4.isSelected()){
+            DisableVolumeExcept(V4);
+        }
+        else{
+            EnableVolume();
+        }
+    }//GEN-LAST:event_S4ActionPerformed
+
+    private void S12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S12ActionPerformed
+        // TODO add your handling code here:
+        if(S12.isSelected()){
+            DisableVolumeExcept(V12);
+        }
+        else{
+            EnableVolume();
+        }
+    }//GEN-LAST:event_S12ActionPerformed
+
+    private void S20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S20ActionPerformed
+        // TODO add your handling code here:
+        if(S20.isSelected()){
+            DisableVolumeExcept(V20);
+        }
+        else{
+            EnableVolume();
+        }
+    }//GEN-LAST:event_S20ActionPerformed
+
+    private void S28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S28ActionPerformed
+        // TODO add your handling code here:
+        if(S28.isSelected()){
+            DisableVolumeExcept(V28);
+        }
+        else{
+            EnableVolume();
+        }
+    }//GEN-LAST:event_S28ActionPerformed
+
+    private void S5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S5ActionPerformed
+        // TODO add your handling code here:
+        if(S5.isSelected()){
+            DisableVolumeExcept(V5);
+        }
+        else{
+            EnableVolume();
+        }
+    }//GEN-LAST:event_S5ActionPerformed
+
+    private void S13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S13ActionPerformed
+        // TODO add your handling code here:
+        if(S13.isSelected()){
+            DisableVolumeExcept(V13);
+        }
+        else{
+            EnableVolume();
+        }
+    }//GEN-LAST:event_S13ActionPerformed
+
+    private void S21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S21ActionPerformed
+        // TODO add your handling code here:
+        if(S21.isSelected()){
+            DisableVolumeExcept(V21);
+        }
+        else{
+            EnableVolume();
+        }
+    }//GEN-LAST:event_S21ActionPerformed
+
+    private void S6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S6ActionPerformed
+        // TODO add your handling code here:
+        if(S6.isSelected()){
+            DisableVolumeExcept(V6);
+        }
+        else{
+            EnableVolume();
+        }
+    }//GEN-LAST:event_S6ActionPerformed
+
+    private void S29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S29ActionPerformed
+        // TODO add your handling code here:
+        if(S29.isSelected()){
+            DisableVolumeExcept(V29);
+        }
+        else{
+            EnableVolume();
+        }
+    }//GEN-LAST:event_S29ActionPerformed
+
+    private void S14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S14ActionPerformed
+        // TODO add your handling code here:
+        if(S14.isSelected()){
+            DisableVolumeExcept(V14);
+        }
+        else{
+            EnableVolume();
+        }
+    }//GEN-LAST:event_S14ActionPerformed
+
+    private void S22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S22ActionPerformed
+        // TODO add your handling code here:
+        if(S22.isSelected()){
+            DisableVolumeExcept(V22);
+        }
+        else{
+            EnableVolume();
+        }
+    }//GEN-LAST:event_S22ActionPerformed
+
+    private void S30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S30ActionPerformed
+        // TODO add your handling code here:
+        if(S30.isSelected()){
+            DisableVolumeExcept(V30);
+        }
+        else{
+            EnableVolume();
+        }
+    }//GEN-LAST:event_S30ActionPerformed
+
+    private void S7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S7ActionPerformed
+        // TODO add your handling code here:
+        if(S7.isSelected()){
+            DisableVolumeExcept(V7);
+        }
+        else{
+            EnableVolume();
+        }
+    }//GEN-LAST:event_S7ActionPerformed
+
+    private void S8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S8ActionPerformed
+        // TODO add your handling code here:
+        if(S8.isSelected()){
+            DisableVolumeExcept(V8);
+        }
+        else{
+            EnableVolume();
+        }
+    }//GEN-LAST:event_S8ActionPerformed
+
+    private void S15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S15ActionPerformed
+        // TODO add your handling code here:
+        if(S15.isSelected()){
+            DisableVolumeExcept(V15);
+        }
+        else{
+            EnableVolume();
+        }
+    }//GEN-LAST:event_S15ActionPerformed
+
+    private void S16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S16ActionPerformed
+        // TODO add your handling code here:
+        if(S16.isSelected()){
+            DisableVolumeExcept(V16);
+        }
+        else{
+            EnableVolume();
+        }
+    }//GEN-LAST:event_S16ActionPerformed
+
+    private void S23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S23ActionPerformed
+        // TODO add your handling code here:
+        if(S23.isSelected()){
+            DisableVolumeExcept(V23);
+        }
+        else{
+            EnableVolume();
+        }
+    }//GEN-LAST:event_S23ActionPerformed
+
+    private void S24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S24ActionPerformed
+        // TODO add your handling code here:
+        if(S24.isSelected()){
+            DisableVolumeExcept(V24);
+        }
+        else{
+            EnableVolume();
+        }
+    }//GEN-LAST:event_S24ActionPerformed
+
+    private void S31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S31ActionPerformed
+        // TODO add your handling code here:
+        if(S31.isSelected()){
+            DisableVolumeExcept(V31);
+        }
+        else{
+            EnableVolume();
+        }
+    }//GEN-LAST:event_S31ActionPerformed
+  ////
+    
+    void test(){
+    }
+    
+    
+    
+    private void S32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S32ActionPerformed
+        // TODO add your handling code here:
+        if(S32.isSelected()){
+            DisableVolumeExcept(V32);
+        }
+        else{
+            EnableVolume();
+        }
+    }//GEN-LAST:event_S32ActionPerformed
+
+    
     
     
     private  void AlternarAudio(int alternar,ThreadAudio audio,int numerocanal,Configuracion C,JButton J,JSlider V){
