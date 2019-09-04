@@ -3432,7 +3432,7 @@ public class PanelMixer extends javax.swing.JPanel {
          Conf=X.Read("config.xml");        
          
          try{
-             audio2=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(2),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),4,V17,C3,socket);
+             audio2=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(2),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),4,V3,C3,socket);
              audio2.start();
               C3.setBackground(Color.GREEN);
               S3.setEnabled(true);
@@ -4002,7 +4002,7 @@ public class PanelMixer extends javax.swing.JPanel {
     if(alternar16==1){
          Conf=X.Read("config.xml");                
          try{
-             audio16=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(16),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),2,V3,C17,socket);
+             audio16=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(16),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),2,V17,C17,socket);
              audio16.start();
               C17.setBackground(Color.GREEN);
               S17.setEnabled(true);
