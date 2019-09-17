@@ -62594,3 +62594,35 @@
 4/9/2019;23:54:34 - No se encontro el servidor
 4/9/2019;23:54:34 - Lectura de xml escrita correctamente
 4/9/2019;23:54:34 - Iniciando audio por canal  3
+16/9/2019;20:36:42 - Iniciando aplicacion clente
+16/9/2019;20:36:44 - Lectura de xml escrita correctamente
+16/9/2019;20:36:44 - Lectura de xml escrita correctamente
+16/9/2019;20:36:45 - Lectura de xml escrita correctamente
+16/9/2019;20:36:45 - Lectura de xml escrita correctamente
+16/9/2019;20:36:51 - Lectura de xml escrita correctamente
+16/9/2019;20:36:52 - No se encontro el servidor
+16/9/2019;20:36:55 - Lectura de xml escrita correctamente
+16/9/2019;20:36:55 - Lectura de xml escrita correctamente
+16/9/2019;20:36:56 - No se encontro el servidor
+16/9/2019;20:36:57 - Iniciando audio por canal  0
+16/9/2019;20:36:58 - Lectura de xml escrita correctamente
+16/9/2019;20:36:59 - Lectura de xml escrita correctamente
+16/9/2019;20:37:0 - No se encontro el servidor
+16/9/2019;20:37:2 - Lectura de xml escrita correctamente
+16/9/2019;20:37:2 - Iniciando audio por canal  1
+16/9/2019;20:37:3 - Lectura de xml escrita correctamente
+16/9/2019;20:37:4 - No se encontro el servidor
+16/9/2019;21:58:11 - Iniciando aplicacion clente
+16/9/2019;21:58:12 - Lectura de xml escrita correctamente
+16/9/2019;21:58:12 - Lectura de xml escrita correctamente
+16/9/2019;21:58:13 - Lectura de xml escrita correctamente
+16/9/2019;21:58:13 - Lectura de xml escrita correctamente
+16/9/2019;21:58:20 - Lectura de xml escrita correctamente
+16/9/2019;21:58:21 - No se encontro el servidor
+16/9/2019;21:58:24 - Lectura de xml escrita correctamente
+16/9/2019;21:58:25 - No se encontro el servidor
+16/9/2019;21:58:27 - Lectura de xml escrita correctamente
+16/9/2019;21:58:28 - Lectura de xml escrita correctamente
+16/9/2019;21:58:28 - Lectura de xml escrita correctamente
+16/9/2019;21:58:28 - Iniciando audio por canal  0
+16/9/2019;21:58:29 - No se encontro el servidor
