@@ -225,38 +225,7 @@ public class PanelMixer extends javax.swing.JPanel {
         V31.setValue(10);
         V32.setValue(10);
         
-        S1.setEnabled(false);
-        S2.setEnabled(false);
-        S17.setEnabled(false);
-        S4.setEnabled(false);
-        S5.setEnabled(false);
-        S6.setEnabled(false);
-        S7.setEnabled(false);
-        S8.setEnabled(false);
-        S19.setEnabled(false);
-        S10.setEnabled(false);
-        S11.setEnabled(false);
-        S12.setEnabled(false);
-        S13.setEnabled(false);
-        S14.setEnabled(false);
-        S15.setEnabled(false);
-        S16.setEnabled(false);
-        S9.setEnabled(false);
-        S18.setEnabled(false);
-        S3.setEnabled(false);
-        S20.setEnabled(false);
-        S21.setEnabled(false);
-        S22.setEnabled(false);
-        S23.setEnabled(false);
-        S24.setEnabled(false);
-        S25.setEnabled(false);
-        S26.setEnabled(false);
-        S27.setEnabled(false);
-        S28.setEnabled(false);
-        S29.setEnabled(false);
-        S30.setEnabled(false);
-        S31.setEnabled(false);
-        S32.setEnabled(false);
+        
         
         
         LoadImages(Conf);
@@ -1805,7 +1774,6 @@ public class PanelMixer extends javax.swing.JPanel {
         V24 = new javax.swing.JSlider();
         V31 = new javax.swing.JSlider();
         V32 = new javax.swing.JSlider();
-        SOLO = new javax.swing.JButton();
         S1 = new javax.swing.JRadioButton();
         S9 = new javax.swing.JRadioButton();
         S25 = new javax.swing.JRadioButton();
@@ -2455,13 +2423,7 @@ public class PanelMixer extends javax.swing.JPanel {
 
         V32.setMaximum(10);
 
-        SOLO.setText("SOLO");
-        SOLO.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                SOLOActionPerformed(evt);
-            }
-        });
-
+        S1.setAlignmentX(0.5F);
         S1.addChangeListener(new javax.swing.event.ChangeListener() {
             public void stateChanged(javax.swing.event.ChangeEvent evt) {
                 S1StateChanged(evt);
@@ -2843,7 +2805,7 @@ public class PanelMixer extends javax.swing.JPanel {
                                             .addComponent(V10, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE))
                                         .addGap(2, 2, 2))
                                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                        .addGap(0, 5, Short.MAX_VALUE)
+                                        .addGap(0, 0, Short.MAX_VALUE)
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                             .addComponent(I13, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addComponent(I9, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)))))
@@ -2907,8 +2869,13 @@ public class PanelMixer extends javax.swing.JPanel {
                                                     .addComponent(I21, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                     .addComponent(V21, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                     .addComponent(V17, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                                        .addComponent(V6, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                                        .addComponent(V29, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                        .addGap(1, 1, 1))
                                                     .addGroup(layout.createSequentialGroup()
                                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -2923,12 +2890,7 @@ public class PanelMixer extends javax.swing.JPanel {
                                                             .addComponent(I4, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                             .addComponent(I3, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                             .addComponent(I6, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                            .addComponent(V3, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                                        .addComponent(V6, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                                        .addComponent(V29, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                        .addGap(3, 3, 3))))
+                                                            .addComponent(V3, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                                             .addGroup(layout.createSequentialGroup()
                                                 .addComponent(V18, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -3008,7 +2970,7 @@ public class PanelMixer extends javax.swing.JPanel {
                                                 .addComponent(I22, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                 .addGap(18, 18, 18)
                                                 .addComponent(I30, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                        .addContainerGap(23, Short.MAX_VALUE))))))
+                                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))))
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
@@ -3042,134 +3004,136 @@ public class PanelMixer extends javax.swing.JPanel {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(V31, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18)
-                                .addComponent(V32, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(SOLO, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(V32, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(45, 45, 45)
-                        .addComponent(S1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(116, 116, 116)
-                        .addComponent(S9, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(112, 112, 112)
-                        .addComponent(S17, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(56, 56, 56)
+                        .addComponent(S1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(139, 139, 139)
+                        .addComponent(S9, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(111, 111, 111)
-                        .addComponent(S25, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(107, 107, 107)
-                        .addComponent(S3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(104, 104, 104)
-                        .addComponent(S11, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(106, 106, 106)
-                        .addComponent(S19, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(S17, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(114, 114, 114)
+                        .addComponent(S25, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(108, 108, 108)
+                        .addComponent(S3, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(113, 113, 113)
+                        .addComponent(S11, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(S27, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(83, 83, 83))))
+                        .addComponent(S19, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(111, 111, 111)
+                        .addComponent(S27, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(92, 92, 92))))
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(61, 61, 61)
-                        .addComponent(S2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(122, 122, 122)
-                        .addComponent(S10, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(112, 112, 112)
-                        .addComponent(S18, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(103, 103, 103)
-                        .addComponent(S26, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(96, 96, 96)
-                        .addComponent(S4, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(69, 69, 69)
+                        .addComponent(S2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(133, 133, 133)
+                        .addComponent(S10, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(99, 99, 99)
+                        .addComponent(S18, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(123, 123, 123)
+                        .addComponent(S26, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(109, 109, 109)
+                        .addComponent(S4, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(121, 121, 121)
+                        .addComponent(S12, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(S20, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(111, 111, 111)
-                        .addComponent(S12, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(115, 115, 115)
-                        .addComponent(S20, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(S28, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(64, 64, 64)
-                        .addComponent(S5, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(123, 123, 123)
-                        .addComponent(S13, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(106, 106, 106)
-                        .addComponent(S21, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(102, 102, 102)
-                        .addComponent(S6, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(S5, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(129, 129, 129)
+                        .addComponent(S13, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(119, 119, 119)
+                        .addComponent(S21, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(105, 105, 105)
-                        .addComponent(S29, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(103, 103, 103)
-                        .addComponent(S14, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(103, 103, 103)
-                        .addComponent(S22, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(S28, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(68, 68, 68))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(S30, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(76, 76, 76))))
+                        .addComponent(S6, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(120, 120, 120)
+                        .addComponent(S29, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(114, 114, 114)
+                        .addComponent(S14, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(114, 114, 114)
+                        .addComponent(S22, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(S30, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(87, 87, 87))
             .addGroup(layout.createSequentialGroup()
                 .addGap(66, 66, 66)
-                .addComponent(S7, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(109, 109, 109)
-                .addComponent(S8, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(111, 111, 111)
-                .addComponent(S15, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(105, 105, 105)
-                .addComponent(S16, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(S7, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(136, 136, 136)
+                .addComponent(S8, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(110, 110, 110)
+                .addComponent(S15, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(114, 114, 114)
+                .addComponent(S16, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(117, 117, 117)
+                .addComponent(S23, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(106, 106, 106)
-                .addComponent(S23, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(107, 107, 107)
-                .addComponent(S24, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(112, 112, 112)
-                .addComponent(S31, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(S24, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(124, 124, 124)
+                .addComponent(S31, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(S32, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(66, 66, 66))
+                .addComponent(S32, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(85, 85, 85))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(29, 29, 29)
-                .addComponent(SOLO, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addGap(17, 17, 17)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(I1, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(I17, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(I25, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(I3, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(I11, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(I19, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(I27, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED, 12, Short.MAX_VALUE)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(C9, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(C1, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(C17)
-                            .addComponent(C25)
-                            .addComponent(C3, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(C11, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(C19, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(C27, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(I1, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(I17, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(I25, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(I3, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(I11, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(I19, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(I27, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(C9, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(C1, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(C17)
+                                    .addComponent(C25)
+                                    .addComponent(C3, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(C11, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(C19, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(C27, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(V27, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(V1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(V17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(V19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(V25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(V9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(V11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(V3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(I9, javax.swing.GroupLayout.PREFERRED_SIZE, 159, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(V27, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(V1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(V17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(V19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(V25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(V9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(V11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(V3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addComponent(I9, javax.swing.GroupLayout.PREFERRED_SIZE, 159, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(19, 19, 19)
+                                .addComponent(S27, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(S1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(S11, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(S9, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(S17, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(S3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(S19, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(S25, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(S27, javax.swing.GroupLayout.DEFAULT_SIZE, 40, Short.MAX_VALUE)
-                    .addComponent(S9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(S1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(S19, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(S11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(S3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(S25, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(S17, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 69, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(I28, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(I2, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -3179,7 +3143,7 @@ public class PanelMixer extends javax.swing.JPanel {
                     .addComponent(I4, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(I20, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(I12, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(C2, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(C10, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -3189,7 +3153,7 @@ public class PanelMixer extends javax.swing.JPanel {
                     .addComponent(C12, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(C20, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(C28, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED, 13, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(V2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(V10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -3200,98 +3164,101 @@ public class PanelMixer extends javax.swing.JPanel {
                     .addComponent(V20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(V28, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(S28, javax.swing.GroupLayout.DEFAULT_SIZE, 40, Short.MAX_VALUE)
-                    .addComponent(S20, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(S12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(S4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(S26, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(S18, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(S2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(S10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(32, 32, 32)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(I29, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(S10, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(S26, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(S4, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(S12, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(S20, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(S28, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(S2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(21, 21, 21)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(I29, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(C21, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(C6, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(C13, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(C5, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(C29, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(C14, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(C22, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(C30, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(I5, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(I13, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(I21, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(I6, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(I14, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(I22, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(I30, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(V5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(V13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(V21, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(V29, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(V30, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(V22, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(V14, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(V6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                    .addComponent(S18, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(S5, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(S13, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(S6, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(S29, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(S14, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(S22, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(S30, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(41, 41, 41)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(I15, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(I7, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(I8, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(I16, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(I24, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(I23, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(I31, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(I32, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(C21, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(C6, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(C13, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(C5, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(C29, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(C14, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(C22, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(C30, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addComponent(I5, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(I13, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(I21, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(I6, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(I14, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(I22, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(I30, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(V5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(V13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(V21, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(V29, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(V30, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(V22, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(V14, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(V6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(C7, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(C8, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(C15, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(C16, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(C23, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(C24, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(C31, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(C32, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(V7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(V8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(V15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(V16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(V23, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(V24, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(V31, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(V32, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addComponent(S21, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(S30, javax.swing.GroupLayout.DEFAULT_SIZE, 40, Short.MAX_VALUE)
-                    .addComponent(S22, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(S14, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(S29, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(S6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(S21, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(S5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(S13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(31, 31, 31)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(I15, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(I7, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(I8, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(I16, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(I24, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(I23, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(I31, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(I32, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(C7, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(C8, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(C15, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(C16, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(C23, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(C24, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(C31, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(C32, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(V7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(V8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(V15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(V16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(V23, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(V24, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(V31, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(V32, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(S32, javax.swing.GroupLayout.DEFAULT_SIZE, 40, Short.MAX_VALUE)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(S31, javax.swing.GroupLayout.DEFAULT_SIZE, 40, Short.MAX_VALUE)
-                        .addComponent(S24, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(S23, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(S16, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(S15, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(S8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(S7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                .addContainerGap(81, Short.MAX_VALUE))
+                    .addComponent(S7, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(S8, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(S15, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(S16, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(S23, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(S24, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(S31, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(S32, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(61, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -3306,8 +3273,7 @@ public class PanelMixer extends javax.swing.JPanel {
             audio0=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(0),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),0,V1,C1,socket);
             audio0.start();
             C1.setBackground(Color.GREEN);
-            S1.setEnabled(true);
-            S1.setSelected(false);
+            
          }
          catch(Exception e){
             System.out.println("Error de hilo ");
@@ -3324,8 +3290,7 @@ public class PanelMixer extends javax.swing.JPanel {
          audio0.stop();
          alternar0=0;
          C1.setBackground(Color.BLUE);
-         S1.setEnabled(false);
-         S1.setSelected(false);
+         
          
     }
         
@@ -3377,8 +3342,7 @@ public class PanelMixer extends javax.swing.JPanel {
              audio1=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(1),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),8,V2,C2,socket);
              audio1.start();
               C2.setBackground(Color.GREEN);
-              S2.setEnabled(true);
-              S2.setSelected(false);
+              
          }
          catch(Exception e){
              System.out.println("Error de hilo ");
@@ -3395,8 +3359,7 @@ public class PanelMixer extends javax.swing.JPanel {
          audio1.stop();
          alternar1=0;
          C2.setBackground(Color.BLUE);
-         S2.setEnabled(false);
-         S2.setSelected(false);
+         
     }    
            
         /*
@@ -3430,14 +3393,12 @@ public class PanelMixer extends javax.swing.JPanel {
              audio2=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(2),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),4,V3,C3,socket);
              audio2.start();
               C3.setBackground(Color.GREEN);
-              S3.setEnabled(true);
-              S3.setSelected(false);
+              
          }
          catch(Exception e){
              System.out.println("Error de hilo ");
                C3.setBackground(Color.RED);
-               S3.setEnabled(false);
-               S3.setSelected(false);
+               
          }
                    
       
@@ -3448,8 +3409,7 @@ public class PanelMixer extends javax.swing.JPanel {
          audio2.stop();
          alternar2=0;
          C3.setBackground(Color.BLUE);
-         S3.setEnabled(false);
-         S3.setSelected(false);
+         
     }
            
            
@@ -3482,14 +3442,12 @@ public class PanelMixer extends javax.swing.JPanel {
              audio3=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(3),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),12,V4,C4,socket);
              audio3.start();
               C4.setBackground(Color.GREEN);
-              S4.setEnabled(true);
-              S4.setSelected(false);
+              
          }
          catch(Exception e){
              System.out.println("Error de hilo ");
                C4.setBackground(Color.RED);
-               S4.setEnabled(false);
-               S4.setSelected(false);
+               
          }     
     }   
     if(alternar3==2){
@@ -3497,8 +3455,7 @@ public class PanelMixer extends javax.swing.JPanel {
          audio3.stop();
          alternar3=0;
          C4.setBackground(Color.BLUE);
-         S4.setEnabled(false);
-         S4.setSelected(false);
+         
     }
       
       
@@ -3533,14 +3490,12 @@ public class PanelMixer extends javax.swing.JPanel {
              audio4=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(4),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),16,V5,C5,socket);
              audio4.start();
               C5.setBackground(Color.GREEN);
-              S5.setEnabled(true);
-              S5.setSelected(false);
+              
          }
          catch(Exception e){
              System.out.println("Error de hilo ");
                C5.setBackground(Color.RED);
-               S5.setEnabled(false);
-               S5.setSelected(false);
+              
          }     
     }   
     if(alternar4==2){
@@ -3548,8 +3503,7 @@ public class PanelMixer extends javax.swing.JPanel {
          audio4.stop();
          alternar4=0;
          C5.setBackground(Color.BLUE);
-         S5.setEnabled(false);
-         S5.setSelected(false);
+         
     }
        
         /*
@@ -3579,17 +3533,15 @@ public class PanelMixer extends javax.swing.JPanel {
     if(alternar5==1){
          Conf=X.Read("config.xml");                
          try{
-             audio5=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(5),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),19,V29,C6,socket);
+             audio5=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(5),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),19,V6,C6,socket);
              audio5.start();
               C6.setBackground(Color.GREEN);
-              S6.setEnabled(true);
-              S6.setSelected(false);
+              
          }
          catch(Exception e){
              System.out.println("Error de hilo ");
                C6.setBackground(Color.RED);
-               S6.setEnabled(false);
-               S6.setSelected(false);
+               
          }     
     }   
     if(alternar5==2){
@@ -3597,8 +3549,7 @@ public class PanelMixer extends javax.swing.JPanel {
          audio5.stop();
          alternar5=0;
          C6.setBackground(Color.BLUE);
-         S6.setEnabled(false);
-         S6.setSelected(false);
+         
     }
        
         /*
@@ -3718,13 +3669,12 @@ public class PanelMixer extends javax.swing.JPanel {
              audio8=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(8),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),1,V9,C9,socket);
              audio8.start();
               C9.setBackground(Color.GREEN);
-              S9.setEnabled(true);
+              
          }
          catch(Exception e){
              System.out.println("Error de hilo ");
                C9.setBackground(Color.RED);
-               S9.setEnabled(false);
-               S9.setSelected(false);
+               
          }     
     }   
     if(alternar8==2){
@@ -3732,8 +3682,7 @@ public class PanelMixer extends javax.swing.JPanel {
          audio8.stop();
          alternar8=0;
          C9.setBackground(Color.BLUE);
-         S9.setEnabled(false);
-         S9.setSelected(false);
+         
     }
       
         /*
@@ -3763,14 +3712,12 @@ public class PanelMixer extends javax.swing.JPanel {
              audio9=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(9),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),9,V10,C10,socket);
              audio9.start();
               C10.setBackground(Color.GREEN);
-              S10.setEnabled(true);
-              S10.setSelected(false);
+              
          }
          catch(Exception e){
              System.out.println("Error de hilo ");
                C10.setBackground(Color.RED);
-               S10.setEnabled(false);
-               S10.setSelected(false);
+              
          }     
     }   
     if(alternar9==2){
@@ -3778,8 +3725,7 @@ public class PanelMixer extends javax.swing.JPanel {
          audio9.stop();
          alternar9=0;
          C10.setBackground(Color.BLUE);
-         S10.setEnabled(false);
-         S10.setSelected(false);
+        
     }
           
         /*
@@ -3809,14 +3755,12 @@ public class PanelMixer extends javax.swing.JPanel {
              audio10=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(10),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),5,V11,C11,socket);
              audio10.start();
               C11.setBackground(Color.GREEN);
-              S11.setEnabled(true);
-              S11.setSelected(false);
+              
          }
          catch(Exception e){
              System.out.println("Error de hilo ");
                C11.setBackground(Color.RED);
-               S11.setEnabled(false);
-               S11.setSelected(false);
+               
          }     
     }   
     if(alternar10==2){
@@ -3824,8 +3768,7 @@ public class PanelMixer extends javax.swing.JPanel {
          audio10.stop();
          alternar10=0;
          C11.setBackground(Color.BLUE);
-         S11.setEnabled(false);
-         S11.setSelected(false);
+         
     }
         
         /*
@@ -3856,14 +3799,12 @@ public class PanelMixer extends javax.swing.JPanel {
              audio11=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(11),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),13,V12,C12,socket);
              audio11.start();
               C12.setBackground(Color.GREEN);
-              S12.setEnabled(true);
-              S12.setSelected(false);
+             
          }
          catch(Exception e){
              System.out.println("Error de hilo ");
                C12.setBackground(Color.RED);
-               S12.setEnabled(false);
-               S12.setSelected(false);
+               
          }     
     }   
     if(alternar11==2){
@@ -3871,8 +3812,7 @@ public class PanelMixer extends javax.swing.JPanel {
          audio11.stop();
          alternar11=0;
          C12.setBackground(Color.BLUE);
-         S12.setEnabled(false);
-         S12.setSelected(false);
+         
     }
          
            /*
@@ -3903,14 +3843,12 @@ public class PanelMixer extends javax.swing.JPanel {
              audio12=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(12),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),17,V13,C13,socket);
              audio12.start();
               C13.setBackground(Color.GREEN);
-              S13.setEnabled(true);
-              S13.setSelected(false);
+              
          }
          catch(Exception e){
              System.out.println("Error de hilo ");
                C13.setBackground(Color.RED);
-               S13.setEnabled(false);
-               S13.setSelected(false);
+               
          }     
     }   
     if(alternar12==2){
@@ -3918,8 +3856,7 @@ public class PanelMixer extends javax.swing.JPanel {
          audio12.stop();
          alternar12=0;
          C13.setBackground(Color.BLUE);
-         S13.setEnabled(false);
-         S13.setSelected(false);
+         
     }
           
         /*
@@ -3950,14 +3887,12 @@ public class PanelMixer extends javax.swing.JPanel {
              audio13=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(13),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),21,V14,C14,socket);
              audio13.start();
               C14.setBackground(Color.GREEN);
-              S14.setEnabled(true);
-              S14.setSelected(false);
+              
          }
          catch(Exception e){
              System.out.println("Error de hilo ");
                C14.setBackground(Color.RED);
-               S14.setEnabled(false);
-               S14.setSelected(false);
+               
          }     
     }   
     if(alternar13==2){
@@ -3965,8 +3900,7 @@ public class PanelMixer extends javax.swing.JPanel {
          audio13.stop();
          alternar13=0;
          C14.setBackground(Color.BLUE);
-         S14.setEnabled(false);
-         S14.setSelected(false);
+         
     }
         
         
@@ -4000,14 +3934,12 @@ public class PanelMixer extends javax.swing.JPanel {
              audio16=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(16),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),2,V17,C17,socket);
              audio16.start();
               C17.setBackground(Color.GREEN);
-              S17.setEnabled(true);
-              S17.setSelected(false);
+              
          }
          catch(Exception e){
              System.out.println("Error de hilo ");
                C17.setBackground(Color.RED);
-               S17.setEnabled(false);
-               S17.setSelected(false);
+               
          }     
     }   
     if(alternar16==2){
@@ -4015,8 +3947,7 @@ public class PanelMixer extends javax.swing.JPanel {
          audio16.stop();
          alternar16=0;
          C17.setBackground(Color.BLUE);
-         S17.setEnabled(false);
-         S17.setSelected(false);
+         
     }
         
         /*
@@ -4046,14 +3977,12 @@ public class PanelMixer extends javax.swing.JPanel {
              audio17=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(17),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),10,V18,C18,socket);
              audio17.start();
               C18.setBackground(Color.GREEN);
-              S18.setEnabled(true);
-              S18.setSelected(false);
+              
          }
          catch(Exception e){
              System.out.println("Error de hilo ");
                C18.setBackground(Color.RED);
-               S18.setEnabled(false);
-               S18.setSelected(false);
+               
          }     
     }   
     if(alternar17==2){
@@ -4061,8 +3990,7 @@ public class PanelMixer extends javax.swing.JPanel {
          audio17.stop();
          alternar17=0;
          C18.setBackground(Color.BLUE);
-         S18.setEnabled(false);
-         S18.setSelected(false);
+         
     }
       
       
@@ -4094,14 +4022,12 @@ public class PanelMixer extends javax.swing.JPanel {
              audio18=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(18),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),6,V19,C19,socket);
              audio18.start();
               C19.setBackground(Color.GREEN);
-              S19.setEnabled(true);
-              S19.setSelected(false);
+              
          }
          catch(Exception e){
              System.out.println("Error de hilo ");
                C19.setBackground(Color.RED);
-               S19.setEnabled(false);
-               S19.setSelected(false);
+               
          }     
     }   
     if(alternar18==2){
@@ -4109,8 +4035,7 @@ public class PanelMixer extends javax.swing.JPanel {
          audio18.stop();
          alternar18=0;
          C19.setBackground(Color.BLUE);
-         S19.setEnabled(false);
-         S19.setSelected(false);
+         
     }
         /*
         
@@ -4141,14 +4066,12 @@ public class PanelMixer extends javax.swing.JPanel {
              audio19=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(19),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),14,V20,C20,socket);
              audio19.start();
               C20.setBackground(Color.GREEN);
-              S20.setEnabled(true);
-              S20.setSelected(false);
+              
          }
          catch(Exception e){
              System.out.println("Error de hilo ");
                C20.setBackground(Color.RED);
-               S20.setEnabled(false);
-               S20.setSelected(false);
+               
          }     
     }   
     if(alternar19==2){
@@ -4156,8 +4079,7 @@ public class PanelMixer extends javax.swing.JPanel {
          audio19.stop();
          alternar19=0;
          C20.setBackground(Color.BLUE);
-         S20.setEnabled(false);
-         S20.setSelected(false);
+        
     }
           
                /*          
@@ -4188,14 +4110,12 @@ public class PanelMixer extends javax.swing.JPanel {
              audio20=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(20),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),18,V21,C21,socket);
              audio20.start();
               C21.setBackground(Color.GREEN);
-              S21.setEnabled(true);
-              S21.setSelected(false);
+              
          }
          catch(Exception e){
              System.out.println("Error de hilo ");
                C21.setBackground(Color.RED);
-               S21.setEnabled(false);
-               S21.setSelected(false);
+               
          }     
     }   
     if(alternar20==2){
@@ -4203,8 +4123,7 @@ public class PanelMixer extends javax.swing.JPanel {
          audio20.stop();
          alternar20=0;
          C21.setBackground(Color.BLUE);
-         S21.setEnabled(false);
-         S21.setSelected(false);
+         
     }
       
         /*
@@ -4236,14 +4155,12 @@ public class PanelMixer extends javax.swing.JPanel {
              audio21=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(21),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),22,V22,C22,socket);
              audio21.start();
               C22.setBackground(Color.GREEN);
-              S22.setEnabled(true);
-              S22.setSelected(false);
+              
          }
          catch(Exception e){
              System.out.println("Error de hilo ");
                C22.setBackground(Color.RED);
-               S22.setEnabled(false);
-               S22.setSelected(false);
+               
          }     
     }   
     if(alternar21==2){
@@ -4251,8 +4168,7 @@ public class PanelMixer extends javax.swing.JPanel {
          audio21.stop();
          alternar21=0;
          C22.setBackground(Color.BLUE);
-         S22.setEnabled(false);
-         S22.setSelected(false);
+        
     }
        
         /*
@@ -4284,14 +4200,12 @@ public class PanelMixer extends javax.swing.JPanel {
              audio24=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(24),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),3,V25,C25,socket);
              audio24.start();
               C25.setBackground(Color.GREEN);
-              S25.setEnabled(true);
-              S25.setSelected(false);
+              
          }
          catch(Exception e){
              System.out.println("Error de hilo ");
                C25.setBackground(Color.RED);
-               S25.setEnabled(false);
-               S25.setSelected(false);
+               
          }     
     }   
     if(alternar24==2){
@@ -4299,8 +4213,7 @@ public class PanelMixer extends javax.swing.JPanel {
          audio24.stop();
          alternar24=0;
          C25.setBackground(Color.BLUE);
-         S25.setEnabled(false);
-         S25.setSelected(false);
+         
     }
       
         /*
@@ -4331,14 +4244,12 @@ public class PanelMixer extends javax.swing.JPanel {
              audio25=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(25),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),11,V26,C26,socket);
              audio25.start();
               C26.setBackground(Color.GREEN);
-              S26.setEnabled(true);
-              S26.setSelected(false);
+              
          }
          catch(Exception e){
              System.out.println("Error de hilo ");
                C26.setBackground(Color.RED);
-               S26.setEnabled(false);
-               S26.setSelected(false);
+              
          }     
     }   
     if(alternar25==2){
@@ -4346,8 +4257,7 @@ public class PanelMixer extends javax.swing.JPanel {
          audio25.stop();
          alternar25=0;
          C26.setBackground(Color.BLUE);
-         S26.setEnabled(false);
-         S26.setSelected(false);
+         
     }
       
         /*
@@ -4378,14 +4288,12 @@ public class PanelMixer extends javax.swing.JPanel {
              audio26=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(26),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),7,V27,C27,socket);
              audio26.start();
               C27.setBackground(Color.GREEN);
-              S27.setEnabled(true);
-              S27.setSelected(false);
+             
          }
          catch(Exception e){
              System.out.println("Error de hilo ");
                C27.setBackground(Color.RED);
-               S27.setEnabled(false);
-               S27.setSelected(false);
+            
          }     
     }   
     if(alternar26==2){
@@ -4393,8 +4301,7 @@ public class PanelMixer extends javax.swing.JPanel {
          audio26.stop();
          alternar26=0;
          C27.setBackground(Color.BLUE);
-         S27.setEnabled(false);
-         S27.setSelected(false);
+         
     }
       
         /*
@@ -4425,14 +4332,12 @@ public class PanelMixer extends javax.swing.JPanel {
              audio27=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(27),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),15,V28,C28,socket);
              audio27.start();
               C28.setBackground(Color.GREEN);
-              S28.setEnabled(true);
-              S28.setSelected(false);
+              
          }
          catch(Exception e){
              System.out.println("Error de hilo ");
                C28.setBackground(Color.RED);
-               S28.setEnabled(false);
-               S28.setSelected(false);
+               
          }     
     }   
     if(alternar27==2){
@@ -4440,8 +4345,7 @@ public class PanelMixer extends javax.swing.JPanel {
          audio27.stop();
          alternar27=0;
          C28.setBackground(Color.BLUE);
-         S28.setEnabled(false);
-         S28.setSelected(false);
+         
     }
        
         /*
@@ -4469,17 +4373,15 @@ public class PanelMixer extends javax.swing.JPanel {
     if(alternar28==1){
          Conf=X.Read("config.xml");                
          try{
-             audio28=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(28),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),20,V6,C29,socket);
+             audio28=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(28),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),20,V29,C29,socket);
              audio28.start();
               C29.setBackground(Color.GREEN);
-              S29.setEnabled(true);
-              S29.setSelected(false);
+              
          }
          catch(Exception e){
              System.out.println("Error de hilo ");
                C29.setBackground(Color.RED);
-               S29.setEnabled(false);
-               S29.setSelected(false);
+               
          }     
     }   
     if(alternar28==2){
@@ -4487,8 +4389,7 @@ public class PanelMixer extends javax.swing.JPanel {
          audio28.stop();
          alternar28=0;
          C29.setBackground(Color.BLUE);
-         S29.setEnabled(false);
-         S29.setSelected(false);
+        
     }
         
         /*
@@ -4519,14 +4420,12 @@ public class PanelMixer extends javax.swing.JPanel {
              audio29=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(29),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),23,V30,C30,socket);
              audio29.start();
               C30.setBackground(Color.GREEN);
-              S30.setEnabled(true);
-              S30.setSelected(false);
+             
          }
          catch(Exception e){
              System.out.println("Error de hilo ");
                C30.setBackground(Color.RED);
-               S30.setEnabled(false);
-               S30.setSelected(false);
+               
          }     
     }   
     if(alternar29==2){
@@ -4534,8 +4433,7 @@ public class PanelMixer extends javax.swing.JPanel {
          audio29.stop();
          alternar29=0;
          C30.setBackground(Color.BLUE);
-         S30.setEnabled(false);
-         S30.setSelected(false);
+        
     }
      
         /*
@@ -4595,14 +4493,12 @@ public class PanelMixer extends javax.swing.JPanel {
              audio6=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(6),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),24,V7,C7,socket);
              audio6.start();
               C7.setBackground(Color.GREEN);
-              S7.setEnabled(true);
-              S7.setSelected(false);
+              
          }
          catch(Exception e){
              System.out.println("Error de hilo ");
                C7.setBackground(Color.RED);
-               S7.setEnabled(false);
-               S7.setSelected(false);
+              
          }     
     }   
     if(alternar6==2){
@@ -4610,8 +4506,7 @@ public class PanelMixer extends javax.swing.JPanel {
          audio6.stop();
          alternar6=0;
          C7.setBackground(Color.BLUE);
-         S7.setEnabled(false);
-         S7.setSelected(false);
+         
     }
     }//GEN-LAST:event_C7ActionPerformed
 
@@ -4625,14 +4520,12 @@ public class PanelMixer extends javax.swing.JPanel {
              audio7=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(7),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),25,V8,C8,socket);
              audio7.start();
               C8.setBackground(Color.GREEN);
-              S8.setEnabled(true);
-              S8.setSelected(false);
+              
          }
          catch(Exception e){
              System.out.println("Error de hilo ");
                C8.setBackground(Color.RED);
-               S8.setEnabled(false);
-               S8.setSelected(false);
+               
          }     
     }   
     if(alternar7==2){
@@ -4640,8 +4533,7 @@ public class PanelMixer extends javax.swing.JPanel {
          audio7.stop();
          alternar7=0;
          C8.setBackground(Color.BLUE);
-         S8.setEnabled(false);
-         S8.setSelected(false);
+       
     }
     }//GEN-LAST:event_C8ActionPerformed
 
@@ -4655,14 +4547,12 @@ public class PanelMixer extends javax.swing.JPanel {
              audio14=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(14),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),26,V15,C15,socket);
              audio14.start();
               C15.setBackground(Color.GREEN);
-              S15.setEnabled(true);
-              S15.setSelected(false);
+          
          }
          catch(Exception e){
              System.out.println("Error de hilo ");
                C15.setBackground(Color.RED);
-               S15.setEnabled(false);
-               S15.setSelected(false);
+               
          }     
     }   
     if(alternar14==2){
@@ -4670,8 +4560,7 @@ public class PanelMixer extends javax.swing.JPanel {
          audio14.stop();
          alternar14=0;
          C15.setBackground(Color.BLUE);
-         S15.setEnabled(false);
-         S15.setSelected(false);
+         
     }
     }//GEN-LAST:event_C15ActionPerformed
 
@@ -4685,14 +4574,12 @@ public class PanelMixer extends javax.swing.JPanel {
              audio15=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(15),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),27,V16,C16,socket);
              audio15.start();
               C16.setBackground(Color.GREEN);
-              S16.setEnabled(true);
-              S16.setSelected(false);
+              
          }
          catch(Exception e){
              System.out.println("Error de hilo ");
                C16.setBackground(Color.RED);
-               S16.setEnabled(false);
-               S16.setSelected(false);
+               
          }     
     }   
     if(alternar15==2){
@@ -4700,8 +4587,7 @@ public class PanelMixer extends javax.swing.JPanel {
          audio15.stop();
          alternar15=0;
          C16.setBackground(Color.BLUE);
-         S16.setEnabled(false);
-         S16.setSelected(false);
+        
     }
     }//GEN-LAST:event_C16ActionPerformed
 
@@ -4715,14 +4601,12 @@ public class PanelMixer extends javax.swing.JPanel {
              audio22=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(22),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),28,V23,C23,socket);
              audio22.start();
               C23.setBackground(Color.GREEN);
-              S23.setEnabled(true);
-              S23.setSelected(false);
+              
          }
          catch(Exception e){
              System.out.println("Error de hilo ");
                C23.setBackground(Color.RED);
-               S23.setEnabled(false);
-               S23.setSelected(false);
+              
          }     
     }   
     if(alternar22==2){
@@ -4730,8 +4614,7 @@ public class PanelMixer extends javax.swing.JPanel {
          audio22.stop();
          alternar22=0;
          C23.setBackground(Color.BLUE);
-         S23.setEnabled(false);
-         S23.setSelected(false);
+         
     }
     }//GEN-LAST:event_C23ActionPerformed
 
@@ -4745,14 +4628,12 @@ public class PanelMixer extends javax.swing.JPanel {
              audio23=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(23),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),29,V24,C24,socket);
              audio23.start();
               C24.setBackground(Color.GREEN);
-              S24.setEnabled(true);
-              S24.setSelected(false);
+              
          }
          catch(Exception e){
              System.out.println("Error de hilo ");
                C24.setBackground(Color.RED);
-               S24.setEnabled(false);
-               S24.setSelected(false);
+               
          }     
     }   
     if(alternar23==2){
@@ -4760,8 +4641,7 @@ public class PanelMixer extends javax.swing.JPanel {
          audio23.stop();
          alternar23=0;
          C24.setBackground(Color.BLUE);
-         S24.setEnabled(false);
-         S24.setSelected(false);
+         
     }
     }//GEN-LAST:event_C24ActionPerformed
 
@@ -4775,14 +4655,12 @@ public class PanelMixer extends javax.swing.JPanel {
              audio30=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(30),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),30,V31,C31,socket);
              audio30.start();
               C31.setBackground(Color.GREEN);
-              S31.setEnabled(true);
-              S31.setSelected(false);
+              
          }
          catch(Exception e){
              System.out.println("Error de hilo ");
                C31.setBackground(Color.RED);
-               S31.setEnabled(false);
-               S31.setSelected(false);
+               
          }     
     }   
     if(alternar30==2){
@@ -4790,8 +4668,7 @@ public class PanelMixer extends javax.swing.JPanel {
          audio30.stop();
          alternar30=0;
          C31.setBackground(Color.BLUE);
-         S31.setEnabled(false);
-         S31.setSelected(false);
+         
     }
     }//GEN-LAST:event_C31ActionPerformed
 
@@ -4805,14 +4682,12 @@ public class PanelMixer extends javax.swing.JPanel {
              audio31=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(31),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),31,V32,C32,socket);
              audio31.start();
               C32.setBackground(Color.GREEN);
-              S32.setEnabled(true);
-              S32.setSelected(false);
+              
          }
          catch(Exception e){
              System.out.println("Error de hilo ");
                C32.setBackground(Color.RED);
-               S32.setEnabled(false);
-               S32.setSelected(false);
+               
          }     
     }   
     if(alternar31==2){
@@ -4820,8 +4695,7 @@ public class PanelMixer extends javax.swing.JPanel {
          audio31.stop();
          alternar4=0;
          C32.setBackground(Color.BLUE);
-         S32.setEnabled(false);
-         S32.setSelected(false);
+         
     }
     }//GEN-LAST:event_C32ActionPerformed
 
@@ -4878,100 +4752,7 @@ public class PanelMixer extends javax.swing.JPanel {
     
     
     
-    private void SOLOActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SOLOActionPerformed
-        // TODO add your handling code here:
-        /*
-        
-        alternarSOLO++;
-        if(alternarSOLO==1){
-         ///activar modo SOLO
-         
-         LastAtivate0 = desactivateButton(C1,S1,alternar0,audio0,LastAtivate0);
-         LastAtivate1 = desactivateButton(C2,S2,alternar1,audio1,LastAtivate1);
-         LastAtivate2 = desactivateButton(C3,S3,alternar2,audio2,LastAtivate2);
-         LastAtivate3 = desactivateButton(C4,S4,alternar3,audio3,LastAtivate3);
-         LastAtivate4 = desactivateButton(C5,S5,alternar4,audio4,LastAtivate4);
-         LastAtivate5 = desactivateButton(C6,S6,alternar5,audio5,LastAtivate5);
-         LastAtivate6 = desactivateButton(C7,S7,alternar6,audio6,LastAtivate6);
-         LastAtivate7 = desactivateButton(C8,S8,alternar7,audio7,LastAtivate7);
-         
-         LastAtivate8 =  desactivateButton(C9,S9,alternar8,audio8,LastAtivate8);
-         LastAtivate9 =  desactivateButton(C10,S10,alternar9,audio9,LastAtivate9);
-         LastAtivate10 = desactivateButton(C11,S11,alternar10,audio10,LastAtivate10);
-         LastAtivate11 = desactivateButton(C12,S12,alternar11,audio11,LastAtivate11);
-         LastAtivate12 = desactivateButton(C13,S13,alternar12,audio12,LastAtivate12);
-         LastAtivate13 = desactivateButton(C14,S14,alternar13,audio13,LastAtivate13);
-         LastAtivate14 = desactivateButton(C15,S15,alternar14,audio14,LastAtivate14);
-         LastAtivate15 = desactivateButton(C16,S16,alternar15,audio15,LastAtivate15);
-         
-         LastAtivate16 = desactivateButton(C17,S17,alternar16,audio16,LastAtivate16);
-         LastAtivate17 = desactivateButton(C18,S18,alternar17,audio17,LastAtivate17);
-         LastAtivate18 = desactivateButton(C19,S19,alternar18,audio18,LastAtivate18);
-         LastAtivate19 = desactivateButton(C20,S20,alternar19,audio19,LastAtivate19);
-         LastAtivate20 = desactivateButton(C21,S21,alternar20,audio20,LastAtivate20);
-         LastAtivate21 = desactivateButton(C22,S22,alternar21,audio21,LastAtivate21);
-         LastAtivate22 = desactivateButton(C23,S23,alternar22,audio22,LastAtivate22);
-         LastAtivate23 = desactivateButton(C24,S24,alternar23,audio23,LastAtivate23);
-         
-         LastAtivate24 = desactivateButton(C25,S25,alternar24,audio24,LastAtivate24);
-         LastAtivate25 = desactivateButton(C26,S26,alternar25,audio25,LastAtivate25);
-         LastAtivate26 = desactivateButton(C27,S27,alternar26,audio26,LastAtivate26);
-         LastAtivate27 = desactivateButton(C28,S28,alternar27,audio27,LastAtivate27);
-         LastAtivate28 = desactivateButton(C29,S29,alternar28,audio28,LastAtivate28);
-         LastAtivate29 = desactivateButton(C30,S30,alternar29,audio29,LastAtivate29);
-         LastAtivate30 = desactivateButton(C31,S31,alternar30,audio30,LastAtivate30);
-         LastAtivate31 = desactivateButton(C32,S32,alternar31,audio31,LastAtivate31);
-         
-         SOLO.setBackground(Color.green);
-        }
-        
-        if(alternarSOLO==2){
-            alternarSOLO=0;
-            
-            activateLastButton(C1,S1,alternar0,audio0,LastAtivate0,V1);
-            activateLastButton(C2,S2,alternar1,audio1,LastAtivate1,V2);
-            activateLastButton(C3,S3,alternar2,audio2,LastAtivate2,V3);
-            activateLastButton(C4,S4,alternar3,audio3,LastAtivate3,V4);
-            activateLastButton(C5,S5,alternar4,audio4,LastAtivate4,V5);
-            activateLastButton(C6,S6,alternar5,audio5,LastAtivate5,V6);
-            activateLastButton(C7,S7,alternar6,audio6,LastAtivate6,V7);
-            activateLastButton(C8,S8,alternar7,audio7,LastAtivate7,V8);
-            
-            activateLastButton(C9,S9, alternar8, audio8, LastAtivate8, V9);
-            activateLastButton(C10,S10, alternar9, audio9, LastAtivate9, V10);
-            activateLastButton(C11,S11, alternar10, audio10, LastAtivate10, V11);
-            activateLastButton(C12,S12, alternar11, audio11, LastAtivate11, V12);
-            activateLastButton(C13,S13, alternar12, audio12, LastAtivate12, V13);
-            activateLastButton(C14,S14, alternar13, audio13, LastAtivate13, V14);
-            activateLastButton(C15,S15, alternar14, audio14, LastAtivate14, V15);
-            activateLastButton(C16,S16, alternar15, audio15, LastAtivate15, V16);
-            
-            activateLastButton(C17,S17, alternar16, audio16, LastAtivate16, V17);
-            activateLastButton(C18,S18, alternar17, audio17, LastAtivate17, V18);
-            activateLastButton(C19,S19, alternar18, audio18, LastAtivate18, V19);
-            activateLastButton(C20,S20, alternar19, audio19, LastAtivate19, V20);
-            activateLastButton(C21,S21, alternar20, audio20, LastAtivate20, V21);
-            activateLastButton(C22,S22, alternar21, audio21, LastAtivate21, V22);
-            activateLastButton(C23,S23, alternar22, audio22, LastAtivate22, V23);
-            activateLastButton(C24,S24, alternar23, audio23, LastAtivate23, V24);
-            
-            activateLastButton(C25,S25, alternar24, audio24, LastAtivate24, V25);
-            activateLastButton(C26,S26, alternar25, audio25, LastAtivate25, V26);
-            activateLastButton(C27,S24, alternar26, audio26, LastAtivate26, V27);
-            activateLastButton(C27,S28, alternar27, audio27, LastAtivate27, V28);
-            activateLastButton(C29,S29, alternar28, audio28, LastAtivate28, V29);
-            activateLastButton(C30,S30, alternar29, audio29, LastAtivate29, V30);
-            activateLastButton(C31,S31, alternar30, audio30, LastAtivate30, V31);
-            activateLastButton(C32,S32, alternar31, audio31, LastAtivate31, V32);
-            
-            
-            SOLO.setBackground(Color.GRAY);
-        }
-        
-        */
-    }//GEN-LAST:event_SOLOActionPerformed
-
-    private void DisableVolumeExcept(JSlider j){
+    private void DisableVolumeExcept(JSlider j, JRadioButton r){
         
         Component[] components = this.getComponents();
         
@@ -4979,16 +4760,21 @@ public class PanelMixer extends javax.swing.JPanel {
           {
             if (component instanceof JSlider)
             {
-                
+                if(component.equals(j))
+                    ((JSlider)component).setValue(10);
                 
                 if (!component.equals(j)){
                     ((JSlider) component).setValue(0);
                 }
             }
-            
-            
-            
-            
+            if(component instanceof JRadioButton)
+            {
+                if(component.equals(r))
+                    r.setSelected(true);
+                
+                else
+                    ((JRadioButton)component).setSelected(false);
+            }
           }
     }
     
@@ -5014,7 +4800,7 @@ public class PanelMixer extends javax.swing.JPanel {
         ////activate only this cnannel, the ohters will be disabled by decreasing the volume
         if(S1.isSelected()){
          
-            DisableVolumeExcept(V1);
+            DisableVolumeExcept(V1,S1);
         }
         else{
           EnableVolume();
@@ -5150,7 +4936,7 @@ public class PanelMixer extends javax.swing.JPanel {
     private void S9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S9ActionPerformed
         // TODO add your handling code here:
         if(S9.isSelected()){
-            DisableVolumeExcept(V9);
+            DisableVolumeExcept(V9,S9);
         }
         else{
             EnableVolume();
@@ -5160,7 +4946,7 @@ public class PanelMixer extends javax.swing.JPanel {
     private void S17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S17ActionPerformed
         // TODO add your handling code here:
         if(S17.isSelected()){
-            DisableVolumeExcept(V17);
+            DisableVolumeExcept(V17,S17);
         }
         else{
             EnableVolume();
@@ -5170,7 +4956,7 @@ public class PanelMixer extends javax.swing.JPanel {
     private void S25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S25ActionPerformed
         // TODO add your handling code here:
         if(S25.isSelected()){
-            DisableVolumeExcept(V25);
+            DisableVolumeExcept(V25,S25);
         }
         else{
             EnableVolume();
@@ -5180,7 +4966,7 @@ public class PanelMixer extends javax.swing.JPanel {
     private void S3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S3ActionPerformed
         // TODO add your handling code here:
         if(S3.isSelected()){
-            DisableVolumeExcept(V3);
+            DisableVolumeExcept(V3,S3);
         }
         else{
             EnableVolume();
@@ -5190,7 +4976,7 @@ public class PanelMixer extends javax.swing.JPanel {
     private void S11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S11ActionPerformed
         // TODO add your handling code here:
         if(S11.isSelected()){
-            DisableVolumeExcept(V11);
+            DisableVolumeExcept(V11,S11);
         }
         else{
             EnableVolume();
@@ -5200,7 +4986,7 @@ public class PanelMixer extends javax.swing.JPanel {
     private void S19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S19ActionPerformed
         // TODO add your handling code here:
         if(S19.isSelected()){
-            DisableVolumeExcept(V19);
+            DisableVolumeExcept(V19,S19);
         }
         else{
             EnableVolume();
@@ -5210,7 +4996,7 @@ public class PanelMixer extends javax.swing.JPanel {
     private void S2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S2ActionPerformed
         // TODO add your handling code here:
         if(S2.isSelected()){
-            DisableVolumeExcept(V2);
+            DisableVolumeExcept(V2,S2);
         }
         else{
             EnableVolume();
@@ -5220,7 +5006,7 @@ public class PanelMixer extends javax.swing.JPanel {
     private void S27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S27ActionPerformed
         // TODO add your handling code here:
         if(S27.isSelected()){
-            DisableVolumeExcept(V27);
+            DisableVolumeExcept(V27,S27);
         }
         else{
             EnableVolume();
@@ -5230,7 +5016,7 @@ public class PanelMixer extends javax.swing.JPanel {
     private void S10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S10ActionPerformed
         // TODO add your handling code here:
         if(S10.isSelected()){
-            DisableVolumeExcept(V10);
+            DisableVolumeExcept(V10,S10);
         }
         else{
             EnableVolume();
@@ -5240,7 +5026,7 @@ public class PanelMixer extends javax.swing.JPanel {
     private void S18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S18ActionPerformed
         // TODO add your handling code here:
         if(S18.isSelected()){
-            DisableVolumeExcept(V18);
+            DisableVolumeExcept(V18,S18);
         }
         else{
             EnableVolume();
@@ -5250,7 +5036,7 @@ public class PanelMixer extends javax.swing.JPanel {
     private void S26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S26ActionPerformed
         // TODO add your handling code here:
         if(S26.isSelected()){
-            DisableVolumeExcept(V26);
+            DisableVolumeExcept(V26,S26);
         }
         else{
             EnableVolume();
@@ -5260,7 +5046,7 @@ public class PanelMixer extends javax.swing.JPanel {
     private void S4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S4ActionPerformed
         // TODO add your handling code here:
         if(S4.isSelected()){
-            DisableVolumeExcept(V4);
+            DisableVolumeExcept(V4,S4);
         }
         else{
             EnableVolume();
@@ -5270,7 +5056,7 @@ public class PanelMixer extends javax.swing.JPanel {
     private void S12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S12ActionPerformed
         // TODO add your handling code here:
         if(S12.isSelected()){
-            DisableVolumeExcept(V12);
+            DisableVolumeExcept(V12,S12);
         }
         else{
             EnableVolume();
@@ -5280,7 +5066,7 @@ public class PanelMixer extends javax.swing.JPanel {
     private void S20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S20ActionPerformed
         // TODO add your handling code here:
         if(S20.isSelected()){
-            DisableVolumeExcept(V20);
+            DisableVolumeExcept(V20,S20);
         }
         else{
             EnableVolume();
@@ -5290,7 +5076,7 @@ public class PanelMixer extends javax.swing.JPanel {
     private void S28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S28ActionPerformed
         // TODO add your handling code here:
         if(S28.isSelected()){
-            DisableVolumeExcept(V28);
+            DisableVolumeExcept(V28,S28);
         }
         else{
             EnableVolume();
@@ -5300,7 +5086,7 @@ public class PanelMixer extends javax.swing.JPanel {
     private void S5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S5ActionPerformed
         // TODO add your handling code here:
         if(S5.isSelected()){
-            DisableVolumeExcept(V5);
+            DisableVolumeExcept(V5,S5);
         }
         else{
             EnableVolume();
@@ -5310,7 +5096,7 @@ public class PanelMixer extends javax.swing.JPanel {
     private void S13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S13ActionPerformed
         // TODO add your handling code here:
         if(S13.isSelected()){
-            DisableVolumeExcept(V13);
+            DisableVolumeExcept(V13,S13);
         }
         else{
             EnableVolume();
@@ -5320,7 +5106,7 @@ public class PanelMixer extends javax.swing.JPanel {
     private void S21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S21ActionPerformed
         // TODO add your handling code here:
         if(S21.isSelected()){
-            DisableVolumeExcept(V21);
+            DisableVolumeExcept(V21,S21);
         }
         else{
             EnableVolume();
@@ -5330,7 +5116,7 @@ public class PanelMixer extends javax.swing.JPanel {
     private void S6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S6ActionPerformed
         // TODO add your handling code here:
         if(S6.isSelected()){
-            DisableVolumeExcept(V6);
+            DisableVolumeExcept(V6,S6);
         }
         else{
             EnableVolume();
@@ -5340,7 +5126,7 @@ public class PanelMixer extends javax.swing.JPanel {
     private void S29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S29ActionPerformed
         // TODO add your handling code here:
         if(S29.isSelected()){
-            DisableVolumeExcept(V29);
+            DisableVolumeExcept(V29,S29);
         }
         else{
             EnableVolume();
@@ -5350,7 +5136,7 @@ public class PanelMixer extends javax.swing.JPanel {
     private void S14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S14ActionPerformed
         // TODO add your handling code here:
         if(S14.isSelected()){
-            DisableVolumeExcept(V14);
+            DisableVolumeExcept(V14,S14);
         }
         else{
             EnableVolume();
@@ -5360,7 +5146,7 @@ public class PanelMixer extends javax.swing.JPanel {
     private void S22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S22ActionPerformed
         // TODO add your handling code here:
         if(S22.isSelected()){
-            DisableVolumeExcept(V22);
+            DisableVolumeExcept(V22,S22);
         }
         else{
             EnableVolume();
@@ -5370,7 +5156,7 @@ public class PanelMixer extends javax.swing.JPanel {
     private void S30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S30ActionPerformed
         // TODO add your handling code here:
         if(S30.isSelected()){
-            DisableVolumeExcept(V30);
+            DisableVolumeExcept(V30,S30);
         }
         else{
             EnableVolume();
@@ -5380,7 +5166,7 @@ public class PanelMixer extends javax.swing.JPanel {
     private void S7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S7ActionPerformed
         // TODO add your handling code here:
         if(S7.isSelected()){
-            DisableVolumeExcept(V7);
+            DisableVolumeExcept(V7,S7);
         }
         else{
             EnableVolume();
@@ -5390,7 +5176,7 @@ public class PanelMixer extends javax.swing.JPanel {
     private void S8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S8ActionPerformed
         // TODO add your handling code here:
         if(S8.isSelected()){
-            DisableVolumeExcept(V8);
+            DisableVolumeExcept(V8,S8);
         }
         else{
             EnableVolume();
@@ -5400,7 +5186,7 @@ public class PanelMixer extends javax.swing.JPanel {
     private void S15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S15ActionPerformed
         // TODO add your handling code here:
         if(S15.isSelected()){
-            DisableVolumeExcept(V15);
+            DisableVolumeExcept(V15,S15);
         }
         else{
             EnableVolume();
@@ -5410,7 +5196,7 @@ public class PanelMixer extends javax.swing.JPanel {
     private void S16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S16ActionPerformed
         // TODO add your handling code here:
         if(S16.isSelected()){
-            DisableVolumeExcept(V16);
+            DisableVolumeExcept(V16,S16);
         }
         else{
             EnableVolume();
@@ -5420,7 +5206,7 @@ public class PanelMixer extends javax.swing.JPanel {
     private void S23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S23ActionPerformed
         // TODO add your handling code here:
         if(S23.isSelected()){
-            DisableVolumeExcept(V23);
+            DisableVolumeExcept(V23,S23);
         }
         else{
             EnableVolume();
@@ -5430,7 +5216,7 @@ public class PanelMixer extends javax.swing.JPanel {
     private void S24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S24ActionPerformed
         // TODO add your handling code here:
         if(S24.isSelected()){
-            DisableVolumeExcept(V24);
+            DisableVolumeExcept(V24,S24);
         }
         else{
             EnableVolume();
@@ -5440,7 +5226,7 @@ public class PanelMixer extends javax.swing.JPanel {
     private void S31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S31ActionPerformed
         // TODO add your handling code here:
         if(S31.isSelected()){
-            DisableVolumeExcept(V31);
+            DisableVolumeExcept(V31,S21);
         }
         else{
             EnableVolume();
@@ -5456,7 +5242,7 @@ public class PanelMixer extends javax.swing.JPanel {
     private void S32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S32ActionPerformed
         // TODO add your handling code here:
         if(S32.isSelected()){
-            DisableVolumeExcept(V32);
+            DisableVolumeExcept(V32,S32);
         }
         else{
             EnableVolume();
@@ -5584,7 +5370,6 @@ public class PanelMixer extends javax.swing.JPanel {
     private javax.swing.JRadioButton S7;
     private javax.swing.JRadioButton S8;
     private javax.swing.JRadioButton S9;
-    private javax.swing.JButton SOLO;
     private javax.swing.JSlider V1;
     private javax.swing.JSlider V10;
     private javax.swing.JSlider V11;
