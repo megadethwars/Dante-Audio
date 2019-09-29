@@ -4985,6 +4985,10 @@ public class PanelMixer extends javax.swing.JPanel {
                     ((JSlider) component).setValue(0);
                 }
             }
+            
+            
+            
+            
           }
     }
     
