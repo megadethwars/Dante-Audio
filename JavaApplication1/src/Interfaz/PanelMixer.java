@@ -132,38 +132,72 @@ public class PanelMixer extends javax.swing.JPanel {
     private boolean LastAtivate30=false;
     private boolean LastAtivate31=false;
     
-    private boolean audioforceddown0 = false;
-    private boolean audioforceddown1 = false;
-    private boolean audioforceddown2 = false;
-    private boolean audioforceddown3 = false;
-    private boolean audioforceddown4 = false;
-    private boolean audioforceddown5 = false;
-    private boolean audioforceddown6 = false;
-    private boolean audioforceddown7 = false;
-    private boolean audioforceddown8 = false;
-    private boolean audioforceddown9 = false;
-    private boolean audioforceddown10 = false;
-    private boolean audioforceddown11 = false;
-    private boolean audioforceddown12 = false;
-    private boolean audioforceddown13 = false;
-    private boolean audioforceddown14 = false;
-    private boolean audioforceddown15 = false;
-    private boolean audioforceddown16 = false;
-    private boolean audioforceddown17 = false;
-    private boolean audioforceddown18 = false;
-    private boolean audioforceddown19 = false;
-    private boolean audioforceddown20 = false;
-    private boolean audioforceddown21 = false;
-    private boolean audioforceddown22 = false;
-    private boolean audioforceddown23 = false;
-    private boolean audioforceddown24 = false;
-    private boolean audioforceddown25 = false;
-    private boolean audioforceddown26 = false;
-    private boolean audioforceddown27 = false;
-    private boolean audioforceddown28 = false;
-    private boolean audioforceddown29 = false;
-    private boolean audioforceddown30 = false;
-    private boolean audioforceddown31 = false;
+    private boolean IsactivatefromMain0=false;
+    private boolean IsactivatefromMain1=false;
+    private boolean IsactivatefromMain2=false;
+    private boolean IsactivatefromMain3=false;
+    private boolean IsactivatefromMain4=false;
+    private boolean IsactivatefromMain5=false;
+    private boolean IsactivatefromMain6=false;
+    private boolean IsactivatefromMain7=false;
+    private boolean IsactivatefromMain8=false;
+    private boolean IsactivatefromMain9=false;
+    private boolean IsactivatefromMain10=false;
+    private boolean IsactivatefromMain11=false;
+    private boolean IsactivatefromMain12=false;
+    private boolean IsactivatefromMain13=false;
+    private boolean IsactivatefromMain14=false;
+    private boolean IsactivatefromMain15=false;
+    private boolean IsactivatefromMain16=false;
+    private boolean IsactivatefromMain17=false;
+    private boolean IsactivatefromMain18=false;
+    private boolean IsactivatefromMain19=false;
+    private boolean IsactivatefromMain20=false;
+    private boolean IsactivatefromMain21=false;
+    private boolean IsactivatefromMain22=false;
+    private boolean IsactivatefromMain23=false;
+    private boolean IsactivatefromMain24=false;
+    private boolean IsactivatefromMain25=false;
+    private boolean IsactivatefromMain26=false;
+    private boolean IsactivatefromMain27=false;
+    private boolean IsactivatefromMain28=false;
+    private boolean IsactivatefromMain29=false;
+    private boolean IsactivatefromMain30=false;
+    private boolean IsactivatefromMain31=false;
+    
+    
+    private boolean IsactivatefromSolo0=false;
+    private boolean IsactivatefromSolo1=false;
+    private boolean IsactivatefromSolo2=false;
+    private boolean IsactivatefromSolo3=false;
+    private boolean IsactivatefromSolo4=false;
+    private boolean IsactivatefromSolo5=false;
+    private boolean IsactivatefromSolo6=false;
+    private boolean IsactivatefromSolo7=false;
+    private boolean IsactivatefromSolo8=false;
+    private boolean IsactivatefromSolo9=false;
+    private boolean IsactivatefromSolo10=false;
+    private boolean IsactivatefromSolo11=false;
+    private boolean IsactivatefromSolo12=false;
+    private boolean IsactivatefromSolo13=false;
+    private boolean IsactivatefromSolo14=false;
+    private boolean IsactivatefromSolo15=false;
+    private boolean IsactivatefromSolo16=false;
+    private boolean IsactivatefromSolo17=false;
+    private boolean IsactivatefromSolo18=false;
+    private boolean IsactivatefromSolo19=false;
+    private boolean IsactivatefromSolo20=false;
+    private boolean IsactivatefromSolo21=false;
+    private boolean IsactivatefromSolo22=false;
+    private boolean IsactivatefromSolo23=false;
+    private boolean IsactivatefromSolo24=false;
+    private boolean IsactivatefromSolo25=false;
+    private boolean IsactivatefromSolo26=false;
+    private boolean IsactivatefromSolo27=false;
+    private boolean IsactivatefromSolo28=false;
+    private boolean IsactivatefromSolo29=false;
+    private boolean IsactivatefromSolo30=false;
+    private boolean IsactivatefromSolo31=false;
     
     
     
@@ -3009,9 +3043,9 @@ public class PanelMixer extends javax.swing.JPanel {
                     .addGroup(layout.createSequentialGroup()
                         .addGap(56, 56, 56)
                         .addComponent(S1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(139, 139, 139)
+                        .addGap(133, 133, 133)
                         .addComponent(S9, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(111, 111, 111)
+                        .addGap(117, 117, 117)
                         .addComponent(S17, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(114, 114, 114)
                         .addComponent(S25, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -3126,10 +3160,12 @@ public class PanelMixer extends javax.swing.JPanel {
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(S1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(S11, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(S9, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(S17, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(S3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(S19, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                                    .addComponent(S19, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(18, 18, 18)
+                                .addComponent(S9, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
                         .addComponent(S25, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -3267,8 +3303,10 @@ public class PanelMixer extends javax.swing.JPanel {
         // TODO add your handling code here:     
     alternar0++;   
     if(alternar0==1){
-                     
-         try{
+        
+        if(!IsactivatefromSolo0){
+            IsactivatefromMain0=true;
+            try{
             Conf=X.Read("config.xml"); 
             audio0=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(0),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),0,V1,C1,socket);
             audio0.start();
@@ -3279,9 +3317,10 @@ public class PanelMixer extends javax.swing.JPanel {
             System.out.println("Error de hilo ");
             C1.setBackground(Color.RED);
             S1.setEnabled(false);
-            
+            IsactivatefromMain0=false;
          }
-         
+        }
+           
                      
     }   
 
@@ -4795,12 +4834,34 @@ public class PanelMixer extends javax.swing.JPanel {
         // TODO add your handling code here:
     }//GEN-LAST:event_S1StateChanged
 
+    private void ActivateThreadAudio(){
+    }
+    
+    
     private void S1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_S1ActionPerformed
         
         ////activate only this cnannel, the ohters will be disabled by decreasing the volume
         if(S1.isSelected()){
          
             DisableVolumeExcept(V1,S1);
+            
+            if(!IsactivatefromMain0){
+                IsactivatefromSolo0=true;
+                try{
+                Conf=X.Read("config.xml"); 
+                audio0=new ThreadAudio(Conf.GetNet(),Conf.GetLista().get(0),Conf.GetMultiCast(),P,Conf.GetFrecuencia(),Conf.GetMuestra(),0,V1,C1,socket);
+                audio0.start();
+                C1.setBackground(Color.GREEN);
+
+                }
+                catch(Exception e){
+                    System.out.println("Error de hilo ");
+                    C1.setBackground(Color.RED);
+                    S1.setEnabled(false);
+                    IsactivatefromSolo0=false;
+                 }
+         }
+            
         }
         else{
           EnableVolume();

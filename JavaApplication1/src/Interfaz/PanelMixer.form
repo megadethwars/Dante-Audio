@@ -315,9 +315,9 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
                       <Component id="S1" min="-2" pref="30" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="139" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="133" max="-2" attributes="0"/>
                       <Component id="S9" min="-2" pref="30" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="111" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="117" max="-2" attributes="0"/>
                       <Component id="S17" min="-2" pref="30" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="114" max="-2" attributes="0"/>
                       <Component id="S25" min="-2" pref="30" max="-2" attributes="0"/>
@@ -447,11 +447,14 @@
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="S1" alignment="1" min="-2" pref="30" max="-2" attributes="0"/>
                                   <Component id="S11" alignment="1" min="-2" pref="30" max="-2" attributes="0"/>
-                                  <Component id="S9" alignment="1" min="-2" pref="30" max="-2" attributes="0"/>
                                   <Component id="S17" alignment="1" min="-2" pref="30" max="-2" attributes="0"/>
                                   <Component id="S3" alignment="1" min="-2" pref="30" max="-2" attributes="0"/>
                                   <Component id="S19" alignment="1" min="-2" pref="30" max="-2" attributes="0"/>
                               </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="S9" min="-2" pref="30" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
